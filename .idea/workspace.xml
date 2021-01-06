@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c40858-4d2f-4311-ade3-6595423ecd01" name="Default Changelist" comment="actual">
-      <change afterPath="$PROJECT_DIR$/Diploma Project.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rev-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rev-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rev-6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/adv-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/adv-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-2png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/adv-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/info-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +25,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1kf3lYJ3ecw0LawZwIRMAsgo3uH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="compactDirectories" value="true" />
@@ -46,6 +37,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -81,7 +73,7 @@
       <workItem from="1608751781354" duration="41000" />
       <workItem from="1608802292437" duration="6189000" />
       <workItem from="1609956563718" duration="17000" />
-      <workItem from="1609956610388" duration="5988000" />
+      <workItem from="1609956610388" duration="6957000" />
     </task>
     <task id="LOCAL-00001" summary="actual">
       <created>1606078099756</created>
@@ -97,6 +89,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="actual" />
     <option name="LAST_COMMIT_MESSAGE" value="actual" />
   </component>
