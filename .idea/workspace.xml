@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36c40858-4d2f-4311-ade3-6595423ecd01" name="Default Changelist" comment="actual" />
+    <list default="true" id="36c40858-4d2f-4311-ade3-6595423ecd01" name="Default Changelist" comment="actual">
+      <change afterPath="$PROJECT_DIR$/Diploma Project.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rev-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rev-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rev-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/adv-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/adv-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-2png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/adv-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/info-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +26,14 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/annzhulanova/Diploma-Progect" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1kf3lYJ3ecw0LawZwIRMAsgo3uH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,7 +49,7 @@
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Real Progect" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -40,7 +62,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606077970103</updated>
-      <workItem from="1606077971190" duration="310000" />
+      <workItem from="1606077971190" duration="727000" />
+      <workItem from="1606205858877" duration="7000" />
+      <workItem from="1606237655494" duration="27000" />
+      <workItem from="1606237683460" duration="1012000" />
+      <workItem from="1606239472694" duration="1791000" />
+      <workItem from="1606835469410" duration="7000" />
+      <workItem from="1607797147658" duration="76000" />
+      <workItem from="1607797260151" duration="93000" />
+      <workItem from="1607797406471" duration="916000" />
+      <workItem from="1607873446673" duration="2571000" />
+      <workItem from="1607972637600" duration="1015000" />
+      <workItem from="1608539867377" duration="72000" />
+      <workItem from="1608573147023" duration="6139000" />
+      <workItem from="1608658926103" duration="4449000" />
+      <workItem from="1608723658391" duration="2902000" />
+      <workItem from="1608744501140" duration="7119000" />
+      <workItem from="1608751781354" duration="41000" />
+      <workItem from="1608802292437" duration="6189000" />
+      <workItem from="1609956563718" duration="17000" />
+      <workItem from="1609956610388" duration="5988000" />
     </task>
     <task id="LOCAL-00001" summary="actual">
       <created>1606078099756</created>

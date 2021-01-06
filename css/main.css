@@ -88,7 +88,7 @@ h2 {
     border-radius: 20px;
     background: transparent;
     width: 160px;
-    height: 38px;
+    height: 40px;
     font-size: 14px;
     font-family: "OpenSans-Bold", sans-serif;
     color: rgb(255, 255, 255);
@@ -146,7 +146,7 @@ h2 {
     background-color: rgb(148, 182, 96);
     width: 255px;
     height: 55px;
-    border-radius: 24px;
+    border-radius: 30px;
     border: 0;
     font-size: 14px;
     font-family: 'OpenSans-Bold', sans-serif;
@@ -195,15 +195,14 @@ h2 {
 
 #info #right-image {
     position: absolute;
-    top: 580px;
+    top: 600px;
     right: 0;
 }
 
 #info #info-container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 120px 0 70px 0;
-    position: relative;
 }
 
 .block-title {
@@ -217,6 +216,10 @@ h2 {
     margin-bottom: 60px;
 }
 
+#info-container #info-description #info-description-content {
+    position: relative;
+}
+
 #info-container #info-description .block-title {
     margin-bottom: 50px;
 }
@@ -226,7 +229,13 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
 
+#info-container #info-description .description-block .description-block-image {
+    width: 315px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-radius: 5px;
 }
 
 #info-container #info-description .description-block .description-block-text {
@@ -236,6 +245,7 @@ h2 {
     text-align: left;
     line-height: 1.278;
     width: 450px;
+    border-top: 10px solid white;
 }
 
 #info-container #info-description #second-description-block .description-block-text {
@@ -243,10 +253,11 @@ h2 {
 }
 
 #info-container #info-description #second-description-block {
+    width: 927px;
     position: absolute;
     z-index: 50;
-    top: 450px;
-    left: 220px;
+    top: 200px;
+    left: 235px;
 }
 
 #info #info-container #product {
@@ -325,7 +336,6 @@ h2 {
     font-family: "OpenSans-Bold", sans-serif;
     color: rgb(148, 182, 96);
     line-height: 1.3;
-
 }
 
 #info #info-container #product .product-container .product-item {
@@ -336,6 +346,7 @@ h2 {
     padding: 0 30px 30px 30px;
     box-sizing: border-box;
     position: relative;
+    transition: 1s;
 }
 
 #info #info-container #product .product-container .product-item:hover {
@@ -376,7 +387,6 @@ h2 {
 
 #info #info-container #product .product-container .product-item .product-item-image {
     width: 180px;
-    height: 188px;
     margin: 0 auto;
 }
 #orkhidarium {
@@ -483,8 +493,10 @@ h2 {
     width: 400px;
     height: 275px;
     padding: 50px 25px;
+    border: 10px solid white;
     border-radius: 5px;
     box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
 }
  #features #features-container .feature:nth-child(2n) {
     position: absolute;
@@ -520,6 +532,10 @@ h2 {
     margin-top: 65px;
     display: flex;
     justify-content: space-between;
+}
+
+#photo #photo-container img {
+    transition: 1s;
 }
 
 #photo #photo-container img:hover {
@@ -562,14 +578,6 @@ h2 {
     content: url("../images/prev.png");
 }
 
-
-#reviews .slick-next {
-    right: -10px;
-}
-
-#reviews .slick-prev {
-    left: -10px;
-}
 
 #reviews .slick-dots li {
     border-width: 1px;
@@ -702,6 +710,10 @@ h2 {
 
 #footer #footer-container a {
     text-decoration: none;
+}
+
+#footer #footer-container #main-footer #social-network {
+    margin-left: 180px;
 }
 
 #footer #footer-container #main-footer #social-network svg {
@@ -1042,12 +1054,12 @@ h2 {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 200px;
-    right: 50px;
+    bottom: 20px;
+    right: 20px;
 }
 
 #up svg {
-    fill: rgb(148, 182, 96);
+    fill: rgb(39, 60, 17);
 }
 #up:hover {
     transform: scale(1.1);

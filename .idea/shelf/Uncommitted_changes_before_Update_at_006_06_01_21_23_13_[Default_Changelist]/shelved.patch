@@ -1,0 +1,1305 @@
+Index: css/adaptive.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@media screen and (max-width: 1920px) {\r\n\r\n}\r\n\r\n@media screen and (max-width: 1600px) {\r\n    #footer-image {\r\n        width: 100px;\r\n        height: 150px;\r\n    }\r\n    #footer-image img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #footer #footer-container #additional-footer {\r\n        margin-top: 50px;\r\n    }\r\n\r\n}\r\n\r\n@media screen and (max-width: 1491px) {\r\n    #info #left-image {\r\n        width: 200px;\r\n        height: 310px;\r\n    }\r\n    #info #left-image img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #info #right-image {\r\n        width: 200px;\r\n        height: 360px;\r\n    }\r\n    #info #right-image img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #promo #promo-image-right {\r\n        width: 300px;\r\n        height: 150px;\r\n    }\r\n    #promo-image-right img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n\r\n    #additional-info #image-left {\r\n        width: 200px;\r\n        height: 350px;\r\n        top: 500px;\r\n    }\r\n    #additional-info #image-left img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #additional-info #image-right {\r\n        width: 180px;\r\n        height: 300px;\r\n    }\r\n    #additional-info #image-right img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n}\r\n\r\n@media screen and (max-width: 1400px) {\r\n    #footer-image {\r\n        width: 80px;\r\n        height: 120px;\r\n    }\r\n    #footer-image img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n}\r\n@media screen and (max-width: 1349px) {\r\n    #additional-info #image-right {\r\n        width: 120px;\r\n        height: 200px;\r\n    }\r\n    #footer-image {\r\n        width: 40px;\r\n        height: 80px;\r\n    }\r\n    #footer-image img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #footer #footer-container #additional-footer {\r\n        margin-top: 30px;\r\n    }\r\n}\r\n@media screen and (max-width: 1270px) {\r\n    #footer-image {\r\n        display: none;\r\n    }\r\n}\r\n\r\n/*1024-1229*/\r\n@media screen and (max-width: 1229px){\r\n    #header #header-container {\r\n        width: 90%;\r\n    }\r\n    #main #main-container {\r\n        width: 90%;\r\n    }\r\n\r\n    #main-image {\r\n        width: 300px;\r\n        height: 320px;\r\n    }\r\n    #main-image img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n\r\n    #info #info-container {\r\n        width: 90%;\r\n        margin: 0;\r\n    }\r\n\r\n    #info-container #info-description .description-block {\r\n        width: 90%;\r\n        justify-content: center;\r\n    }\r\n\r\n    #info-container #info-description .description-block .description-block-text {\r\n        max-width: 350px;\r\n        margin-left: 30px;\r\n    }\r\n    .description-block-image {\r\n        width: 250px;\r\n        height: 280px;\r\n    }\r\n    .description-block-image img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n\r\n    #info-container #info-description #second-description-block {\r\n        top: 420px;\r\n        left: 180px;\r\n    }\r\n\r\n    #info #info-container #product .product-container {\r\n        justify-content: space-around;\r\n        flex-wrap: wrap;\r\n        align-items: center;\r\n    }\r\n    #info #info-container #product .product-container .product-items {\r\n        justify-content: center;\r\n        align-content: center;\r\n    }\r\n\r\n    #promo #promo-container {\r\n        width: 90%;\r\n        margin: 0;\r\n    }\r\n    #promo #promo-container #promo-description #promo-text {\r\n        width: 90%;\r\n    }\r\n    #promo #promo-container #promo-description {\r\n        margin-left: 68px;\r\n    }\r\n    #promo #promo-image-left {\r\n        width: 400px;\r\n        height: 150px;\r\n    }\r\n    #promo #promo-image-left img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #additional-info-container {\r\n        width: 90%;\r\n    }\r\n    #additional-info-container #features #features-container {\r\n        justify-content: left;\r\n    }\r\n    #additional-info-container #features #features-container .feature{\r\n        width: 92%;\r\n    }\r\n    #features #features-container #features-left {\r\n        margin-right: 35px;\r\n    }\r\n    #features #features-container .feature:nth-child(2n) {\r\n        left: 120px;\r\n        top: 250px;\r\n    }\r\n    #photo #photo-container #photo-box img {\r\n        width: 230px;\r\n        height: 250px;\r\n    }\r\n    #photo-main {\r\n        width: 380px;\r\n        height: 570px;\r\n    }\r\n    #photo-main img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #photo #photo-container #photo-box {\r\n        margin-right: 50px;\r\n        justify-content: space-evenly;\r\n        align-content: space-evenly;\r\n    }\r\n\r\n    #additional-info #additional-info-container #information {\r\n        margin-bottom: 80px;\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n    #additional-info-container #information .information-box {\r\n        margin-bottom: 20px;\r\n    }\r\n\r\n    #footer #footer-container {\r\n        width: 90%;\r\n    }\r\n}\r\n\r\n/*977-1023*/\r\n@media screen and (max-width: 1023px) {\r\n    #header #header-container {\r\n        padding: 30px 0;\r\n        flex-wrap: wrap;\r\n        justify-content: space-evenly;\r\n    }\r\n\r\n    #header #header-container .logo {\r\n        order: 1;\r\n    }\r\n    #header #header-container #header-action {\r\n        order: 2;\r\n    }\r\n    #header #header-container #header-items {\r\n        order: 3;\r\n        width: 100%;\r\n        justify-content: space-evenly;\r\n        margin-top: 20px;\r\n    }\r\n\r\n    #main-image img {\r\n        width: 200px;\r\n        height: 250px;\r\n    }\r\n\r\n    #info #info-container {\r\n        margin: 0 30px;\r\n    }\r\n    .description-block-image {\r\n        width: 200px;\r\n        height: 220px;\r\n    }\r\n    #info-container #info-description #second-description-block {\r\n        top: 400px;\r\n        left: 110px;\r\n    }\r\n\r\n    #info #info-container #product .product-container {\r\n        text-align: center;\r\n    }\r\n    #promo-image #second-image {\r\n        bottom: -60px;\r\n        left: 140px;\r\n    }\r\n    #promo #promo-container {\r\n        align-items: center;\r\n    }\r\n    #promo #promo-container #promo-description .block-title {\r\n        font-size: 32px;\r\n        margin-bottom: 30px;\r\n    }\r\n    #features #features-container #features-left {\r\n        margin-right: 0;\r\n    }\r\n    #features #features-container #features-right{\r\n        margin-top: 220px;\r\n    }\r\n    #additional-info-container #features #features-container {\r\n        display: block;\r\n        margin-left: 60px;\r\n    }\r\n    #additional-info-container #features #features-container .feature {\r\n        width: 400px;\r\n    }\r\n    #features #features-container .feature:nth-child(2n) {\r\n        left: 350px;\r\n        top: 210px;\r\n    }\r\n    #photo-main {\r\n        width: 280px;\r\n        height: 470px;\r\n    }\r\n    #photo-main img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #photo #photo-container #photo-box img {\r\n        width: 200px;\r\n        height: 220px;\r\n    }\r\n    #photo #photo-container #photo-box {\r\n        margin-right: 50px;\r\n    }\r\n    .slick-slide {\r\n        margin: 0 18px;\r\n    }\r\n    #additional-info #image-right {\r\n        width: 150px;\r\n        height: 270px;\r\n    }\r\n    #footer #footer-container #main-footer {\r\n        justify-content: space-evenly;\r\n    }\r\n    #footer #footer-container #additional-footer {\r\n        justify-content: space-evenly;\r\n    }\r\n\r\n}\r\n\r\n@media screen and (max-width: 977px) {\r\n    #photo #photo-container #photo-box {\r\n        margin-right: 0;\r\n    }\r\n    #promo-image #second-image {\r\n        bottom: -60px;\r\n        left: 140px;\r\n    }\r\n}\r\n\r\n@media screen and (max-width: 870px) {\r\n    #features #features-container .feature:nth-child(2n) {\r\n        left: 280px;\r\n        top: 210px;\r\n    }\r\n    #additional-info-container #features #features-container {\r\n        margin-left: 0;\r\n    }\r\n    #promo-image #second-image {\r\n        bottom: -60px;\r\n        left: 140px;\r\n    }\r\n}\r\n\r\n/*490-767*/\r\n@media screen and (max-width: 767px){\r\n    #header #header-container #header-items {\r\n        justify-content: space-between;\r\n    }\r\n    #main #main-container {\r\n        flex-direction: column;\r\n    }\r\n    #main-description {\r\n        order: 2;\r\n        padding-top: 40px;\r\n        text-align: center;\r\n    }\r\n    #main-image {\r\n        order: 1;\r\n        margin: 30px auto 0 auto;\r\n    }\r\n    #main-image img {\r\n        width: 300px;\r\n        height: 320px;\r\n    }\r\n\r\n    #main-container #main-description #main-description-text {\r\n        text-align: center;\r\n        margin: 0 auto 30px auto;\r\n    }\r\n\r\n    #info #info-container {\r\n        margin: 0 auto;\r\n    }\r\n    #info-container #info-description #second-description-block {\r\n        position: static;\r\n        margin: 30px 0 0 10px;\r\n    }\r\n    .description-block-image {\r\n        width: 100px;\r\n        height: 100px;\r\n    }\r\n    #info-container #info-description .description-block .description-block-text {\r\n        margin-left: 10px;\r\n        font-size: 12px;\r\n        max-width: 300px;\r\n    }\r\n    #info #right-image {\r\n        opacity: 0.1;\r\n    }\r\n    #info #info-container #product {\r\n        margin: 250px auto 0 auto;\r\n    }\r\n    #info #info-container #product .product-container {\r\n        flex-direction: column;\r\n    }\r\n    #info #info-container #product #product-category .category {\r\n        margin: 0 20px;\r\n    }\r\n    #info #info-container #product .product-container .main-product-item{\r\n        padding: 30px 20px;\r\n        margin: 0 auto;\r\n    }\r\n    #info #info-container #product .product-container .main-product-item .main-product-item-text {\r\n        text-align: center;\r\n    }\r\n    #promo #promo-container {\r\n        margin: 0 auto;\r\n        flex-direction: column;\r\n        padding-top: 50px;\r\n    }\r\n    #promo #promo-image-left {\r\n        z-index: 0;\r\n    }\r\n    #first-image {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n    #promo-image {\r\n        width: 200px;\r\n    }\r\n    #promo #promo-container #promo-description {\r\n        margin: 0 auto;\r\n        text-align: center;\r\n        z-index: 50;\r\n    }\r\n    #promo #promo-container #promo-description #promo-text {\r\n        margin: 0 auto;\r\n    }\r\n    #promo-image #second-image {\r\n        bottom: 0;\r\n        top: 150px;\r\n        left: 120px;\r\n        width: 50%;\r\n    }\r\n    #additional-info #image-right {\r\n        opacity: 0.2;\r\n    }\r\n    #features #features-container .feature:nth-child(2n) {\r\n        left: 45px;\r\n        top: 240px;\r\n    }\r\n    #features #features-container #features-right {\r\n        margin-top: 260px;\r\n    }\r\n    #additional-info-container #features #features-container {\r\n        margin: 0 auto;\r\n\r\n    }\r\n    #additional-info-container #features #features-container .feature {\r\n        margin: 0 auto;\r\n    }\r\n    #photo #photo-container {\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n    #additional-info #additional-info-container #information{\r\n        margin-top: 30px;\r\n    }\r\n    #additional-info-container #information .information-box {\r\n        margin: 20px auto 0 auto;\r\n        max-width: 450px;\r\n    }\r\n    #footer #footer-container #main-footer {\r\n        margin: 0 auto;\r\n        max-width: 350px;\r\n        justify-content: space-between;\r\n        flex-wrap: wrap;\r\n    }\r\n    #footer #footer-container #main-footer #call {\r\n        margin: 15px auto 0 auto;\r\n    }\r\n    #footer #footer-container #additional-footer {\r\n        max-width: 450px;\r\n        margin: 30px auto 0 auto;\r\n        justify-content: space-between;\r\n    }\r\n    .slick-slide {\r\n        margin: 0 10px;\r\n    }\r\n    #reviews .slick-prev {\r\n        left: -5px;\r\n    }\r\n    #reviews .slick-next {\r\n        right: -5px;\r\n    }\r\n    #up {\r\n        bottom: 210px;\r\n        right: 20px;\r\n    }\r\n    #up svg {\r\n        opacity: 0.7;\r\n    }\r\n    #promo #promo-container #promo-description .block-title {\r\n        margin: 0 auto 30px auto;\r\n        text-align: center;\r\n    }\r\n    #popup-content {\r\n        max-width: 440px;\r\n    }\r\n    #popup-image {\r\n        display: none;\r\n    }\r\n    #popup-sent #popup-sent-text {\r\n        max-width: 360px;\r\n        margin-top: 30px;\r\n    }\r\n    #popup-sent {\r\n        max-width: 450px;\r\n        padding: 40px;\r\n        background-size: cover;\r\n        background-position: center top;\r\n    }\r\n    #popup-sent .popup-close {\r\n        top: 40px;\r\n        right: 20px;\r\n    }\r\n\r\n\r\n\r\n\r\n}\r\n\r\n/*425-489*/\r\n@media screen and (max-width: 490px) {\r\n    #header #header-container #header-items {\r\n        display: none;\r\n        top: 0;\r\n        left: 0;\r\n        position: fixed;\r\n        background: rgba(23, 23, 23, 0.7);\r\n        z-index: 3;\r\n        width: 100%;\r\n        height: 100%;\r\n        text-align: center;\r\n        padding: 20px 0;\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n\r\n    #header #header-container {\r\n        position: relative;\r\n        justify-content: space-between;\r\n    }\r\n\r\n    #header.menu-open {\r\n        background-color: rgba(23, 23, 23, 0.7);\r\n    }\r\n\r\n    #burger {\r\n        display: block;\r\n    }\r\n\r\n    #header.menu-open #header-container #header-items {\r\n        display: flex;\r\n        justify-content: space-evenly;\r\n    }\r\n\r\n    #main-description {\r\n        text-align: center;\r\n    }\r\n\r\n    #main-container #main-description h1 {\r\n        font-size: 50px;\r\n    }\r\n    #main-container #main-description #main-advantages .advantage {\r\n        width: 120px;\r\n    }\r\n    #main-image {\r\n        display: none;\r\n    }\r\n    #info #info-container {\r\n        margin: 0 auto;\r\n    }\r\n\r\n    #info-container #info-description #second-description-block {\r\n        position: static;\r\n        margin-top: 20px;\r\n    }\r\n\r\n    .description-block-image {\r\n        width: 130px;\r\n        height: 100px;\r\n    }\r\n    #info #right-image {\r\n        opacity: 0.7;\r\n        top: 520px;\r\n    }\r\n    #info #info-container #product {\r\n        margin-top: 330px;\r\n    }\r\n    #info #info-container #product #product-category .category {\r\n        margin: 0 10px;\r\n    }\r\n    #info #info-container #product .product-container .main-product-item {\r\n        margin: 0 auto;\r\n        padding: 0 ;\r\n    }\r\n    #info #info-container #product .product-container .main-product-item .main-product-item-text {\r\n        text-align: center;\r\n    }\r\n    #promo #promo-container{\r\n        margin: 0 auto;\r\n    }\r\n    #promo #promo-container #promo-description {\r\n        margin: 0 auto;\r\n        text-align: center;\r\n        z-index: 50;\r\n    }\r\n    #promo #promo-container #promo-description #promo-text {\r\n        margin: 0 auto 50px auto;\r\n    }\r\n\r\n    #promo #promo-container #promo-description .block-title{\r\n        text-align: center;\r\n    }\r\n    #promo-image #second-image {\r\n        left: -90px;\r\n        bottom: 0;\r\n        top: 50px;\r\n        display: block;\r\n        opacity: 0.4;\r\n    }\r\n    #promo-image img {\r\n        display: none;\r\n    }\r\n    #additional-info #image-left {\r\n        opacity: 0.6;\r\n    }\r\n    #features #features-container .feature:nth-child(2n) {\r\n        width: 95%;\r\n        left: 0;\r\n        top: 280px;\r\n    }\r\n    #additional-info-container #features #features-container .feature {\r\n        width: 95%;\r\n    }\r\n    #features #features-container #features-right {\r\n        margin-top: 290px;\r\n    }\r\n    #photo #photo-container {\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n    #reviews #reviews-box {\r\n        padding: 0 10px;\r\n        margin-bottom: 50px;\r\n    }\r\n    #additional-info #additional-info-container #information {\r\n        margin: 40px auto 0 auto;\r\n    }\r\n    #additional-info #image-right img {\r\n        opacity: 0.2;\r\n    }\r\n    #additional-info-container #information .information-box {\r\n        padding: 30px 20px;\r\n        width: 390px;\r\n    }\r\n    #information .information-box .information-item {\r\n        text-align: left;\r\n    }\r\n    #additional-info-container #information .information-box .information-box-title {\r\n        font-size: 30px;\r\n    }\r\n    #information .information-box .information-item .information-item-text .information-item-words {\r\n        font-size: 16px;\r\n    }\r\n    #footer {\r\n        padding: 30px 15px;\r\n    }\r\n    #footer #footer-container #main-footer #social-network {\r\n        order: 3;\r\n    }\r\n    #footer #footer-container #main-footer .logo {\r\n        order: 1;\r\n    }\r\n    #footer #footer-container #main-footer #call {\r\n        order: 2;\r\n        margin: 20px auto;\r\n    }\r\n    #footer #footer-container #main-footer {\r\n        flex-wrap: wrap;\r\n        justify-content: center;\r\n    }\r\n    #footer #footer-container #additional-footer {\r\n        text-align: center;\r\n    }\r\n    #popup-content, #popup-sent {\r\n        max-width: 400px;\r\n    }\r\n    #popup-image {\r\n        visibility: hidden;\r\n    }\r\n    #callback, #callback-sent {\r\n        max-width: 400px;\r\n    }\r\n    #up {\r\n        bottom: 260px;\r\n        right: 25px;\r\n    }\r\n    #up svg {\r\n        opacity: 0.7;\r\n    }\r\n\r\n}\r\n\r\n/*375-424*/\r\n@media screen and (max-width: 424px) {\r\n    #header #header-container {\r\n        width: 350px;\r\n    }\r\n    #main-description {\r\n        margin: 0 auto;\r\n    }\r\n    #main-container #main-description h1 {\r\n        font-size: 40px;\r\n        margin: 0;\r\n    }\r\n    #main-container #main-description #main-description-text {\r\n        max-width: 340px;\r\n        font-size: 16px;\r\n        margin: 50px auto;\r\n    }\r\n    #main-container #main-description #main-advantages .advantage .advantage-text {\r\n        font-size: 12px;\r\n    }\r\n    #main-container #main-description #main-advantages .advantage {\r\n        width: 100px;\r\n    }\r\n    #info #left-image {\r\n        width: 100px;\r\n        height: 210px;\r\n        top: -110px;\r\n    }\r\n    #info #right-image {\r\n        width: 100px;\r\n        height: 260px;\r\n        top: 420px;\r\n    }\r\n    #info-container #info-description .block-title {\r\n        font-size: 30px;\r\n    }\r\n    #info-container #info-description .description-block .description-block-text {\r\n        font-size: 10px;\r\n    }\r\n    .description-block-image {\r\n        width: 150px;\r\n        height: 100px;\r\n    }\r\n    #info #info-container #product {\r\n        margin-top: 280px;\r\n    }\r\n    #info-container #product .block-title {\r\n        font-size: 30px;\r\n        margin-bottom: 40px;\r\n    }\r\n    #info #info-container #product #product-category {\r\n        flex-direction: column;\r\n    }\r\n    #info #info-container #product #product-category .category {\r\n        margin: 10px auto;\r\n    }\r\n    #info #info-container #product .product-container .main-product-item {\r\n        max-width: 350px;\r\n    }\r\n    #info #info-container #product .product-container .main-product-item .main-product-item-image img{\r\n        width: 310px;\r\n        height: 310px;\r\n    }\r\n    #promo #promo-image-left {\r\n        width: 300px;\r\n    }\r\n    #additional-info-container #features .block-title {\r\n        margin-bottom: 60px;\r\n        font-size: 30px;\r\n    }\r\n    #additional-info-container #photo .block-title {\r\n        font-size: 30px;\r\n    }\r\n    #additional-info-container #reviews .block-title {\r\n        font-size: 30px;\r\n    }\r\n    #additional-info-container #information .information-box {\r\n        width: 340px;\r\n    }\r\n    #information .information-box .information-item {\r\n        text-align: left;\r\n    }\r\n    #up {\r\n        right: 12px;\r\n        bottom: 270px;\r\n    }\r\n    #up svg {\r\n        opacity: 0.5;\r\n    }\r\n    #callback, #callback-sent {\r\n        max-width: 350px;\r\n    }\r\n    #callback #callback-image {\r\n        width: 80px;\r\n        height: 90px;\r\n    }\r\n    #popup-content, #popup-sent {\r\n        max-width: 350px;\r\n    }\r\n    #popup-content #popup-main #popup-title {\r\n        margin: 0 auto;\r\n        font-size: 25px;\r\n    }\r\n    #popup-content #popup-main #popup-text {\r\n        margin: 20px auto;\r\n    }\r\n    .popup-input input {\r\n        width: 300px;\r\n    }\r\n    #popup-content #popup-main .popup-data textarea {\r\n        width: 300px;\r\n    }\r\n    #popup-sent #popup-sent-text {\r\n        width: 320px;\r\n        margin: 30px auto;\r\n        font-size: 16px;\r\n    }\r\n    #popup-sent {\r\n        padding: 50px 0;\r\n    }\r\n    #popup-sent .popup-close {\r\n        right: 10px;\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n}\r\n\r\n/*320-374*/\r\n@media screen and (max-width: 374px) {\r\n    #header #header-container {\r\n        width: 300px;\r\n        justify-content: space-around;\r\n    }\r\n    #header #header-container #header-action {\r\n        margin-top: 20px;\r\n    }\r\n    #main-description {\r\n        max-width: 300px;\r\n    }\r\n    #main-container #main-description #main-description-text {\r\n        max-width: 300px;\r\n        margin: 35px auto;\r\n    }\r\n    #main-container #main-description h1{\r\n        font-size: 38px;\r\n    }\r\n    .description-block-image {\r\n        width: 100px;\r\n        height: 50px;\r\n    }\r\n    #info #right-image {\r\n        width: 80px;\r\n        height: 200px;\r\n        top: 380px;\r\n    }\r\n    #info #info-container #product {\r\n        margin-top: 200px;\r\n    }\r\n    #info #info-container #product #product-category .category {\r\n        font-size: 20px;\r\n    }\r\n    #info #info-container #product .product-container .main-product-item .main-product-item-image img {\r\n        width: 250px;\r\n        height: 250px;\r\n    }\r\n    #info #info-container #product .product-container .main-product-item {\r\n        margin-bottom: 50px;\r\n    }\r\n    #info #info-container #product .product-container .product-item {\r\n        width: 300px;\r\n    }\r\n    #promo-image #second-image {\r\n        left: -60px;\r\n        top: 70px;\r\n    }\r\n    #promo #promo-image-right {\r\n        display: none;\r\n    }\r\n    #additional-info-container #features #features-container .feature {\r\n        width: 300px;\r\n    }\r\n    #features #features-container .feature .feature-image img {\r\n        width: 50px;\r\n    }\r\n    #features #features-container .feature .feature-text .feature-title {\r\n        font-size: 16px;\r\n    }\r\n    #features #features-container .feature .feature-text .feature-words {\r\n        font-size: 12px;\r\n    }\r\n    #photo #photo-container #photo-box img{\r\n        width: 180px;\r\n        height: 200px;\r\n    }\r\n    #photo-main {\r\n        width: 250px;\r\n        height: 400px;\r\n    }\r\n    #additional-info-container #information .information-box {\r\n        width: 290px;\r\n    }\r\n    #information .information-box .information-item img {\r\n        width: 60px;\r\n    }\r\n    #information .information-box .information-item .information-item-text .information-item-title {\r\n        font-size: 18px;\r\n    }\r\n    #information .information-box .information-item .information-item-text .information-item-words {\r\n        font-size: 14px;\r\n    }\r\n    #additional-info-container #information .information-box .information-box-title {\r\n        font-size: 28px;\r\n    }\r\n    #callback, #callback-sent {\r\n        max-width: 300px;\r\n    }\r\n    #callback-container .popup-close {\r\n        top: 5px;\r\n        right: 12px;\r\n    }\r\n    #callback #callback-image {\r\n        width: 55px;\r\n        height: 80px;\r\n    }\r\n    #popup-sent {\r\n        width: 300px;\r\n    }\r\n    #popup-sent #popup-sent-text {\r\n        max-width: 290px;\r\n    }\r\n    #popup-sent .popup-close {\r\n        top: 37px;\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/adaptive.css b/css/adaptive.css
+--- a/css/adaptive.css	(revision 1000eef1583f78c3305b9e8a7881fe2707f80c41)
++++ b/css/adaptive.css	(date 1609961345175)
+@@ -20,7 +20,6 @@
+ @media screen and (max-width: 1491px) {
+     #info #left-image {
+         width: 200px;
+-        height: 310px;
+     }
+     #info #left-image img {
+         width: 100%;
+@@ -28,7 +27,6 @@
+     }
+     #info #right-image {
+         width: 200px;
+-        height: 360px;
+     }
+     #info #right-image img {
+         width: 100%;
+@@ -45,7 +43,6 @@
+ 
+     #additional-info #image-left {
+         width: 200px;
+-        height: 350px;
+         top: 500px;
+     }
+     #additional-info #image-left img {
+@@ -93,6 +90,12 @@
+     #footer-image {
+         display: none;
+     }
++    .slick-prev {
++        left: -10px;
++    }
++    .slick-next {
++        right: -10px;
++    }
+ }
+ 
+ /*1024-1229*/
+@@ -114,31 +117,24 @@
+     }
+ 
+     #info #info-container {
+-        width: 90%;
+-        margin: 0;
++        margin: 0 auto;
+     }
+ 
+     #info-container #info-description .description-block {
+-        width: 90%;
+         justify-content: center;
++        max-width: 870px;
++        margin: 0;
+     }
+ 
+     #info-container #info-description .description-block .description-block-text {
+         max-width: 350px;
+         margin-left: 30px;
+     }
+-    .description-block-image {
+-        width: 250px;
+-        height: 280px;
+-    }
+-    .description-block-image img {
+-        width: 100%;
+-        height: 100%;
+-    }
+ 
+     #info-container #info-description #second-description-block {
+-        top: 420px;
+-        left: 180px;
++        top: 220px;
++        left: 295px;
++        max-width: 720px;
+     }
+ 
+     #info #info-container #product .product-container {
+@@ -149,6 +145,19 @@
+     #info #info-container #product .product-container .product-items {
+         justify-content: center;
+         align-content: center;
++        max-width: 700px;
++    }
++    #info #info-container #product .product-container .main-product-item {
++        margin: 0 auto;
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++    }
++    #info #info-container #product .product-container .product-item {
++        margin: 0 auto;
++        display: flex;
++        flex-direction: column;
++        align-items: center;
+     }
+ 
+     #promo #promo-container {
+@@ -163,7 +172,6 @@
+     }
+     #promo #promo-image-left {
+         width: 400px;
+-        height: 150px;
+     }
+     #promo #promo-image-left img {
+         width: 100%;
+@@ -175,9 +183,6 @@
+     #additional-info-container #features #features-container {
+         justify-content: left;
+     }
+-    #additional-info-container #features #features-container .feature{
+-        width: 92%;
+-    }
+     #features #features-container #features-left {
+         margin-right: 35px;
+     }
+@@ -187,11 +192,9 @@
+     }
+     #photo #photo-container #photo-box img {
+         width: 230px;
+-        height: 250px;
+     }
+     #photo-main {
+         width: 380px;
+-        height: 570px;
+     }
+     #photo-main img {
+         width: 100%;
+@@ -199,8 +202,7 @@
+     }
+     #photo #photo-container #photo-box {
+         margin-right: 50px;
+-        justify-content: space-evenly;
+-        align-content: space-evenly;
++        justify-content: space-around;
+     }
+ 
+     #additional-info #additional-info-container #information {
+@@ -215,6 +217,11 @@
+     #footer #footer-container {
+         width: 90%;
+     }
++
++    #up {
++        bottom: 35px;
++        right: 10px;
++    }
+ }
+ 
+ /*977-1023*/
+@@ -248,16 +255,26 @@
+     }
+     .description-block-image {
+         width: 200px;
+-        height: 220px;
+     }
+     #info-container #info-description #second-description-block {
+-        top: 400px;
+-        left: 110px;
++        position: static;
++    }
++    #info-container #info-description .description-block {
++        max-width: 720px;
++        margin: 0 auto;
+     }
+ 
+     #info #info-container #product .product-container {
+         text-align: center;
+     }
++
++    #info #info-container #product {
++        margin-top: 130px;
++    }
++
++    #info #right-image {
++        top: 700px;
++    }
+     #promo-image #second-image {
+         bottom: -60px;
+         left: 140px;
+@@ -288,15 +305,9 @@
+     }
+     #photo-main {
+         width: 280px;
+-        height: 470px;
+-    }
+-    #photo-main img {
+-        width: 100%;
+-        height: 100%;
+     }
+     #photo #photo-container #photo-box img {
+         width: 200px;
+-        height: 220px;
+     }
+     #photo #photo-container #photo-box {
+         margin-right: 50px;
+@@ -314,6 +325,9 @@
+     #footer #footer-container #additional-footer {
+         justify-content: space-evenly;
+     }
++    #footer #footer-container #main-footer #social-network {
++        margin: 0;
++    }
+ 
+ }
+ 
+@@ -329,8 +343,8 @@
+ 
+ @media screen and (max-width: 870px) {
+     #features #features-container .feature:nth-child(2n) {
+-        left: 280px;
+-        top: 210px;
++        left: 300px;
++        top: 230px;
+     }
+     #additional-info-container #features #features-container {
+         margin-left: 0;
+@@ -371,24 +385,35 @@
+     #info #info-container {
+         margin: 0 auto;
+     }
++
++    #info-container #info-description .description-block {
++        max-width: 450px;
++        display: flex;
++        flex-direction: column-reverse;
++        align-items: center;
++    }
+     #info-container #info-description #second-description-block {
+         position: static;
+-        margin: 30px 0 0 10px;
++        max-width: 450px;
++        margin-top: 10px;
+     }
+-    .description-block-image {
+-        width: 100px;
+-        height: 100px;
++    #info-container #info-description .description-block .description-block-image {
++        width: 200px;
++    }
++    #info-container #info-description .description-block .description-block-image img {
++        width: 100%;
+     }
+     #info-container #info-description .description-block .description-block-text {
+-        margin-left: 10px;
+-        font-size: 12px;
+-        max-width: 300px;
++        max-width: 380px;
++        text-align: center;
++        margin: 0 auto;
+     }
++
+     #info #right-image {
+         opacity: 0.1;
+     }
+     #info #info-container #product {
+-        margin: 250px auto 0 auto;
++        margin: 110px auto 0 auto;
+     }
+     #info #info-container #product .product-container {
+         flex-direction: column;
+@@ -403,6 +428,24 @@
+     #info #info-container #product .product-container .main-product-item .main-product-item-text {
+         text-align: center;
+     }
++
++    #info #info-container #product .product-container .product-item .product-item-image {
++        width: 160px;
++        margin: 0;
++    }
++
++    #info #info-container #product .product-container .product-item .product-item-image img {
++        width: 100%;
++    }
++
++    #info #info-container #product .product-container .product-item {
++        width: 180px;
++    }
++
++    #info #info-container #product .product-container .product-items {
++        max-width: 490px;
++    }
++
+     #promo #promo-container {
+         margin: 0 auto;
+         flex-direction: column;
+@@ -440,19 +483,47 @@
+         top: 240px;
+     }
+     #features #features-container #features-right {
+-        margin-top: 260px;
++        margin: 0 auto;
++        width: 390px;
+     }
+     #additional-info-container #features #features-container {
+         margin: 0 auto;
+ 
+     }
+     #additional-info-container #features #features-container .feature {
++        margin: 10px auto 0 auto;
++        position: static;
++        border: none;
++        width: 380px;
++    }
++
++    #features #features-container #features-left {
+         margin: 0 auto;
+     }
++
++    #features #features-container #features-left:first-child {
++        width: 390px;
++    }
++
++    #photo {
++        margin-top: 110px;
++    }
++
+     #photo #photo-container {
++        align-items: center;
+         flex-direction: column;
+-        align-items: center;
++        max-width: 500px;
++        margin: 65px auto 0 auto;
++    }
++
++    #photo #photo-container #photo-box {
++        justify-content: space-evenly;
+     }
++
++    #additional-info #image-left {
++        top: 650px;
++    }
++
+     #additional-info #additional-info-container #information{
+         margin-top: 30px;
+     }
+@@ -460,6 +531,7 @@
+         margin: 20px auto 0 auto;
+         max-width: 450px;
+     }
++
+     #footer #footer-container #main-footer {
+         margin: 0 auto;
+         max-width: 350px;
+@@ -478,14 +550,10 @@
+         margin: 0 10px;
+     }
+     #reviews .slick-prev {
+-        left: -5px;
++        left: -20px;
+     }
+     #reviews .slick-next {
+-        right: -5px;
+-    }
+-    #up {
+-        bottom: 210px;
+-        right: 20px;
++        right: -20px;
+     }
+     #up svg {
+         opacity: 0.7;
+@@ -523,11 +591,12 @@
+ /*425-489*/
+ @media screen and (max-width: 490px) {
+     #header #header-container #header-items {
++        margin: 0;
+         display: none;
+         top: 0;
+         left: 0;
+         position: fixed;
+-        background: rgba(23, 23, 23, 0.7);
++        background: rgba(39, 60, 17, 0.9);
+         z-index: 3;
+         width: 100%;
+         height: 100%;
+@@ -572,21 +641,38 @@
+         margin: 0 auto;
+     }
+ 
++    #info-container #info-description .description-block {
++        max-width: 400px;
++    }
++
+     #info-container #info-description #second-description-block {
+         position: static;
+         margin-top: 20px;
++        max-width: 400px;
++    }
++
++    #info-container #info-description .description-block .description-block-text {
++        border: none;
++        width: 400px;
++    }
++    #info-container #info-description #second-description-block .description-block-text {
++        width: 400px;
++    }
++
++    #info-container #info-description .description-block .description-block-image {
++        border: none;
++        margin-top: 10px;
+     }
+ 
+     .description-block-image {
+         width: 130px;
+-        height: 100px;
+     }
+     #info #right-image {
+-        opacity: 0.7;
+-        top: 520px;
++        display: none;
+     }
++
+     #info #info-container #product {
+-        margin-top: 330px;
++        margin-top: 130px;
+     }
+     #info #info-container #product #product-category .category {
+         margin: 0 10px;
+@@ -623,9 +709,15 @@
+     #promo-image img {
+         display: none;
+     }
++
++    #promo-image-right img {
++        display: none;
++    }
++
+     #additional-info #image-left {
+         opacity: 0.6;
+     }
++
+     #features #features-container .feature:nth-child(2n) {
+         width: 95%;
+         left: 0;
+@@ -634,9 +726,6 @@
+     #additional-info-container #features #features-container .feature {
+         width: 95%;
+     }
+-    #features #features-container #features-right {
+-        margin-top: 290px;
+-    }
+     #photo #photo-container {
+         flex-direction: column;
+         align-items: center;
+@@ -717,12 +806,8 @@
+     }
+     #main-container #main-description #main-description-text {
+         max-width: 340px;
+-        font-size: 16px;
+         margin: 50px auto;
+     }
+-    #main-container #main-description #main-advantages .advantage .advantage-text {
+-        font-size: 12px;
+-    }
+     #main-container #main-description #main-advantages .advantage {
+         width: 100px;
+     }
+@@ -739,16 +824,29 @@
+     #info-container #info-description .block-title {
+         font-size: 30px;
+     }
+-    #info-container #info-description .description-block .description-block-text {
+-        font-size: 10px;
++
++    #info-container #info-description .description-block {
++        max-width: 350px;
++    }
++
++    #info-container #info-description #second-description-block {
++        position: static;
++        margin-top: 15px;
++        max-width: 350px;
++
+     }
+     .description-block-image {
+         width: 150px;
+-        height: 100px;
+     }
+-    #info #info-container #product {
+-        margin-top: 280px;
++
++    #info-container #info-description .description-block .description-block-text {
++        width: 350px;
+     }
++
++    #info-container #info-description #second-description-block .description-block-text {
++        width: 350px;
++    }
++
+     #info-container #product .block-title {
+         font-size: 30px;
+         margin-bottom: 40px;
+@@ -782,6 +880,19 @@
+     #additional-info-container #information .information-box {
+         width: 340px;
+     }
++
++    #features #features-container #features-left:first-child {
++        width: 340px;
++    }
++
++    #features #features-container #features-right {
++        width: 340px;
++    }
++
++    #features #features-container .feature .feature-text {
++        margin-left: 10px;
++    }
++
+     #information .information-box .information-item {
+         text-align: left;
+     }
+@@ -854,16 +965,26 @@
+     }
+     .description-block-image {
+         width: 100px;
+-        height: 50px;
+     }
+     #info #right-image {
+         width: 80px;
+         height: 200px;
+         top: 380px;
+     }
+-    #info #info-container #product {
+-        margin-top: 200px;
++
++    #info-container #info-description .description-block {
++        max-width: 280px;
++    }
++
++    #info-container #info-description #second-description-block {
++        position: static;
++        margin-top: 15px;
++        max-width: 280px;
+     }
++    #info-container #info-description .description-block .description-block-text {
++        max-width: 280px;
++    }
++
+     #info #info-container #product #product-category .category {
+         font-size: 20px;
+     }
+@@ -885,7 +1006,7 @@
+         display: none;
+     }
+     #additional-info-container #features #features-container .feature {
+-        width: 300px;
++        width: 280px;
+     }
+     #features #features-container .feature .feature-image img {
+         width: 50px;
+@@ -898,12 +1019,18 @@
+     }
+     #photo #photo-container #photo-box img{
+         width: 180px;
+-        height: 200px;
+     }
+     #photo-main {
+         width: 250px;
+-        height: 400px;
++    }
++
++    #features #features-container #features-left:first-child {
++        width: 280px;
+     }
++    #features #features-container #features-right {
++        width: 280px;
++    }
++
+     #additional-info-container #information .information-box {
+         width: 290px;
+     }
+@@ -919,6 +1046,15 @@
+     #additional-info-container #information .information-box .information-box-title {
+         font-size: 28px;
+     }
++
++    #reviews .slick-prev {
++        left: -10px;
++    }
++
++    #reviews .slick-next {
++        right: -10px;
++    }
++
+     #callback, #callback-sent {
+         max-width: 300px;
+     }
+@@ -939,20 +1075,11 @@
+     #popup-sent .popup-close {
+         top: 37px;
+     }
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
++    #callback .popup-input input {
++        width: 200px;
++    }
++    #callback .btn-green {
++        height: 45px;
++    }
+ 
+ }
+\ No newline at end of file
+Index: js/main.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>$(document).ready(() => {\r\n    $('.open-image').magnificPopup({\r\n        type: 'image'\r\n    });\r\n\r\n    new WOW({\r\n        animateClass: 'animate__animated'\r\n    }).init();\r\n\r\n    $('.product-item, .main-product-item').click((e) => {\r\n        let focusElement = $(e.target);\r\n        focusElement.children('.product-item-cart').show();\r\n    });\r\n\r\n    $('#reviews-box').slick({\r\n        dots: true,\r\n        infinite: true,\r\n        slidesToShow: 3,\r\n        slidesToScroll: 3,\r\n        responsive: [\r\n            {\r\n                breakpoint: 767,\r\n                settings: {\r\n                    slidesToShow: 2,\r\n                    slidesToScroll: 2,\r\n                    infinite: true,\r\n                    dots: false\r\n                }\r\n            },\r\n            {\r\n                breakpoint: 424,\r\n                settings: {\r\n                    slidesToShow: 1,\r\n                    slidesToScroll: 1,\r\n                    infinite: true,\r\n                    dots: false\r\n                }\r\n            },\r\n        ]\r\n    });\r\n\r\n    $('.category').click((e) => {\r\n        let currentElement = $(e.target);\r\n        $('.products-container').hide();\r\n        let id = currentElement.data('id');\r\n        $('#' + id).show();\r\n\r\n        $('.category').removeClass('active');\r\n        currentElement.addClass('active');\r\n    });\r\n\r\n    $('.open-popup').click(() => {\r\n        $('#popup-container').css('display', 'flex');\r\n    });\r\n\r\n    $('#popup-cancel, #popup-container').click((e) => {\r\n        if (e.target.id === 'popup-container' || e.target.id === 'popup-cancel')\r\n            $('#popup-container').hide();\r\n    });\r\n\r\n    $('#order-button').click(() => {\r\n        let name = $('#name');\r\n        let phone = $('#phone');\r\n        let data = $('#data');\r\n\r\n        let hasError = false;\r\n        let input = $('.order-input');\r\n        let error = $('.error-input');\r\n\r\n        if (!name.val()) {\r\n            name.siblings('.error-input').show();\r\n            name.css('border-color', '#e94f4f');\r\n            hasError = true;\r\n        }\r\n        if (!phone.val()) {\r\n            phone.siblings('.error-input').show();\r\n            phone.css('border-color', '#e94f4f');\r\n            hasError = true;\r\n        }\r\n        if (!data.val()) {\r\n            data.siblings('.error-input').show();\r\n            data.css('border-color', '#e94f4f');\r\n            hasError = true;\r\n        } else {\r\n            if (name.val() && phone.val() && data.val()) {\r\n                $.ajax({\r\n                    type: 'post',\r\n                    url: 'mail.php',\r\n                    data: 'name=' + name.val() + '&phone=' + phone.val() + '&data=' + data.val(),\r\n                    success: () => {\r\n                        $('#popup-sent').show();\r\n                        $('#popup-content').hide();\r\n                    },\r\n                    error: () => {\r\n                        $('#popup-container').hide();\r\n                        alert('Ошибка отпарвки заказа. Свяжитесь, пожалуйста, по номеру телефона.');\r\n                    }\r\n                });\r\n            }\r\n        }\r\n        ;\r\n\r\n    });\r\n\r\n    $('#popup-sent-cancel, #popup-container').click((e) => {\r\n        if (e.target.id === 'popup-container' || e.target.id === 'popup-sent-cancel')\r\n            $('#popup-container').hide();\r\n    });\r\n    $('#popup-sent-action').click((e) => {\r\n        $('#popup-container').hide();\r\n        $('#product').show();\r\n    });\r\n\r\n    $('.callback-action').click(() => {\r\n        $('#callback-container').css('display', 'flex')\r\n    });\r\n\r\n    $('#callback-container, #callback-cancel, #callback-sent-cancel').click((e) => {\r\n        if (e.target.id === 'callback-container' || e.target.id === 'callback-cancel' || e.target.id === 'callback-sent-cancel')\r\n            $('#callback-container').hide();\r\n    });\r\n\r\n    $('.call-me').click(() => {\r\n        let number = $('#callback-phone');\r\n        let hasError = false;\r\n        let input = $('.order-input');\r\n        let error = $('.error-input');\r\n\r\n        if (!number.val()) {\r\n            number.siblings('.error-input').show();\r\n            number.css('border-color', '#e94f4f');\r\n            hasError = true;\r\n        } else {\r\n            if (number.val()) {\r\n                $.ajax({\r\n                    type: 'post',\r\n                    url: 'mail.php',\r\n                    data: 'number=' + number.val(),\r\n                    success: () => {\r\n                        $('#callback-sent').show();\r\n                        $('#callback').hide();\r\n                    },\r\n                    error: () => {\r\n                        $('#callback-container').hide();\r\n                        alert('Ошибка отпарвки заказа. Свяжитесь, пожалуйста, по номеру телефона.');\r\n                    }\r\n                })\r\n            }\r\n            ;\r\n        }\r\n\r\n\r\n\r\n    });\r\n\r\n    let up = $('#up');\r\n    $(window).scroll(function() {\r\n        if ($(window).scrollTop() > 500) {\r\n            up.css('display', 'block');\r\n        } else {\r\n            up.css('display', 'none');\r\n        }\r\n    });\r\n\r\n    $('#burger').click(() => {\r\n        $('#header').toggleClass('menu-open');\r\n    });\r\n    $('#header-items, #header-items a').click(() => {\r\n        $('#header').removeClass('menu-open');\r\n    });\r\n\r\n\r\n\r\n})
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/main.js b/js/main.js
+--- a/js/main.js	(revision 1000eef1583f78c3305b9e8a7881fe2707f80c41)
++++ b/js/main.js	(date 1608577112826)
+@@ -7,11 +7,6 @@
+         animateClass: 'animate__animated'
+     }).init();
+ 
+-    $('.product-item, .main-product-item').click((e) => {
+-        let focusElement = $(e.target);
+-        focusElement.children('.product-item-cart').show();
+-    });
+-
+     $('#reviews-box').slick({
+         dots: true,
+         infinite: true,
+@@ -67,35 +62,37 @@
+         let input = $('.order-input');
+         let error = $('.error-input');
+ 
+-        if (!name.val()) {
+-            name.siblings('.error-input').show();
+-            name.css('border-color', '#e94f4f');
+-            hasError = true;
+-        }
+-        if (!phone.val()) {
+-            phone.siblings('.error-input').show();
+-            phone.css('border-color', '#e94f4f');
+-            hasError = true;
+-        }
+-        if (!data.val()) {
+-            data.siblings('.error-input').show();
+-            data.css('border-color', '#e94f4f');
+-            hasError = true;
++
++        if (!name.val() || !phone.val() || !data.val()) {
++            if (!name.val()) {
++                name.siblings('.error-input').show();
++                name.css('border-color', '#e94f4f');
++                hasError = true;
++            } else {
++                name.siblings('.error-input').remove();
++                name.css('border-color', 'rgb(39, 60, 17)');
++            }
++            if (!phone.val()) {
++                phone.siblings('.error-input').show();
++                phone.css('border-color', '#e94f4f');
++                hasError = true;
++            } else {
++                phone.siblings('.error-input').remove();
++                phone.css('border-color', 'rgb(39, 60, 17)');
++            }
++            if (!data.val()) {
++                data.siblings('.error-input').show();
++                data.css('border-color', '#e94f4f');
++                hasError = true;
++            } else {
++                data.siblings('.error-input').remove();
++                data.css('border-color', 'rgb(39, 60, 17)');
++            }
++
+         } else {
+             if (name.val() && phone.val() && data.val()) {
+-                $.ajax({
+-                    type: 'post',
+-                    url: 'mail.php',
+-                    data: 'name=' + name.val() + '&phone=' + phone.val() + '&data=' + data.val(),
+-                    success: () => {
+-                        $('#popup-sent').show();
+-                        $('#popup-content').hide();
+-                    },
+-                    error: () => {
+-                        $('#popup-container').hide();
+-                        alert('Ошибка отпарвки заказа. Свяжитесь, пожалуйста, по номеру телефона.');
+-                    }
+-                });
++                $('#popup-sent').show();
++                $('#popup-content').hide();
+             }
+         }
+         ;
+@@ -132,32 +129,20 @@
+             hasError = true;
+         } else {
+             if (number.val()) {
+-                $.ajax({
+-                    type: 'post',
+-                    url: 'mail.php',
+-                    data: 'number=' + number.val(),
+-                    success: () => {
+-                        $('#callback-sent').show();
+-                        $('#callback').hide();
+-                    },
+-                    error: () => {
+-                        $('#callback-container').hide();
+-                        alert('Ошибка отпарвки заказа. Свяжитесь, пожалуйста, по номеру телефона.');
+-                    }
+-                })
++                $('#callback-sent').show();
++                $('#callback').hide();
++
+             }
+             ;
+         }
+-
+-
+-
+     });
+ 
+     let up = $('#up');
+     $(window).scroll(function() {
+         if ($(window).scrollTop() > 500) {
+             up.css('display', 'block');
+-        } else {
++        }
++        else {
+             up.css('display', 'none');
+         }
+     });
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Дипломный проект</title>\r\n    <link rel=\"stylesheet\" href=\"css/slick.css\">\r\n    <link rel=\"stylesheet\" href=\"css/slick-theme.css\">\r\n    <link rel=\"stylesheet\" href=\"css/animate.min.css\">\r\n    <link rel=\"stylesheet\" href=\"css/magnific-popup.css\">\r\n    <link rel=\"stylesheet\" href=\"css/main.css\">\r\n    <link rel=\"stylesheet\" href=\"css/adaptive.css\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n</head>\r\n<body>\r\n<div id=\"header\">\r\n    <div id=\"header-container\">\r\n        <div id=\"burger\">\r\n            &#9776;\r\n        </div>\r\n        <div class=\"logo wow animate__heartBeat\">\r\n            <a href=\"#\">\r\n                <img src=\"images/logo.png\" alt=\"\">\r\n                <span>Florarium</span>\r\n            </a>\r\n        </div>\r\n        <div id=\"header-items\">\r\n            <a href=\"#product\">Флорариумы</a>\r\n            <a href=\"#promo\">Акции</a>\r\n            <a href=\"#features\">Как мы работаем</a>\r\n            <a href=\"#information\">Доставка и оплата</a>\r\n        </div>\r\n        <div id=\"header-action\">\r\n                <button class=\"btn-white callback-action\">Заказать звонок</button>\r\n        </div>\r\n    </div>\r\n\r\n</div>\r\n\r\n<div id=\"main\">\r\n    <div id=\"main-container\">\r\n        <div id=\"main-description\">\r\n            <h1 class=\"wow animate__fadeInDown\">\r\n                Сад для вашего дома\r\n                в Краснодаре\r\n            </h1>\r\n            <div id=\"main-description-text\" class=\"wow animate__fadeInDown\">\r\n                Делайте сюрпризы для своих любимых незабываемыми вместе с Florarium!\r\n            </div>\r\n            <div id=\"main-description-action\" class=\" wow animate__fadeIn\">\r\n                <a href=\"#product\">\r\n                    <button class=\"btn-green\">Посмотреть флорариумы</button>\r\n                </a>\r\n            </div>\r\n            <div id=\"main-advantages\">\r\n                <div class=\"advantage\">\r\n                    <div class=\"advantage-image\">\r\n                        <img src=\"images/adv-1.png\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"advantage-text\">\r\n                        Очень неприхотливы\r\n                        и просты в уходе\r\n                    </div>\r\n                </div>\r\n                <div class=\"advantage\">\r\n                    <div class=\"advantage-image\">\r\n                        <img src=\"images/adv-2.png\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"advantage-text\">\r\n                        Поливать раз в неделю\r\n                    </div>\r\n                </div>\r\n                <div class=\"advantage\">\r\n                    <div class=\"advantage-image\">\r\n                        <img src=\"images/adv-3.png\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"advantage-text\">\r\n                        Доставим бесплатно\r\n                        в любое время дня и ночи\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n        <div id=\"main-image\">\r\n            <img src=\"images/main-image.png\" alt=\"\">\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div id=\"info\">\r\n    <div id=\"left-image\">\r\n        <img src=\"images/left-img.png\" alt=\"\">\r\n    </div>\r\n    <div id=\"right-image\">\r\n        <img src=\"images/right-img.png\" alt=\"\">\r\n    </div>\r\n\r\n    <div id=\"info-container\">\r\n        <div id=\"info-description\">\r\n            <h2 class=\"block-title\">\r\n                О нас\r\n            </h2>\r\n            <div class=\"description-block wow animate__fadeInDown\">\r\n                <div class=\"description-block-image\">\r\n                    <img src=\"images/info-1.png\" alt=\"\">\r\n                </div>\r\n                <div class=\"description-block-text\">\r\n                    Мы влюбленны в цветы и в свою работу. На протяжении 8 лет мы создаем красоту из живых цветов,\r\n                    составляем композиции из эхеверии и крассулы эксперементируем с формами, цветами и сочетаниями.\r\n                </div>\r\n            </div>\r\n            <div class=\"description-block wow animate__fadeInUp\" id=\"second-description-block\">\r\n                <div class=\"description-block-image\">\r\n                    <img src=\"images/info-2.png\" alt=\"\">\r\n                </div>\r\n                <div class=\"description-block-text\">\r\n                    Мы дарим каждому клиенту настоящую радость и\r\n                    любовь - это миссия нашего магазина. Вдохновляясь современными тенденциями во флористике, мы\r\n                    придумываем что-то новое, стремимся показать самые необычные и интересные сочетания цветов. К\r\n                    созданию флорариумов подходим с душой и любовью.\r\n                </div>\r\n            </div>\r\n\r\n        </div>\r\n        <div id=\"product\">\r\n            <h2 class=\"block-title\">\r\n                Наши растения\r\n            </h2>\r\n            <div id=\"product-category\">\r\n                <div class=\"category active\" data-id=\"florarium\">\r\n                    Флорариумы\r\n                </div>\r\n                <div class=\"category\" data-id=\"orkhidarium\">\r\n                    Орхидариумы\r\n                </div>\r\n            </div>\r\n            <div id=\"florarium\" class=\"products-container\">\r\n                <div class=\"product-container wow animate__fadeIn\">\r\n                    <div class=\"main-product-item\">\r\n                        <div class=\"main-product-item-image\">\r\n                            <img src=\"images/product1.png\" alt=\"\">\r\n                        </div>\r\n                        <div class=\"main-product-item-title\">\r\n                            Ночная сказка\r\n                        </div>\r\n                        <div class=\"main-product-item-text\">\r\n                            Флорариум с яркими суккулентами в вазе ручной работы\r\n                        </div>\r\n                        <div class=\"main-product-item-price\">\r\n                            5500 руб.\r\n                        </div>\r\n                        <div class=\"product-item-cart\">\r\n                            <img src=\"images/store%20hover.png\" alt=\"\">\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"product-items\">\r\n                        <div class=\"product-item\">\r\n                            <div class=\"product-item-image\">\r\n                                <img src=\"images/product2.png\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"product-item-title\">\r\n                                Суккуленты\r\n                            </div>\r\n                            <div class=\"product-item-price\">\r\n                                2500 руб.\r\n                            </div>\r\n                            <div class=\"product-item-cart\">\r\n                                <img src=\"images/store%20hover.png\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"product-item\">\r\n                            <div class=\"product-item-image\">\r\n                                <img src=\"images/product3.png\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"product-item-title\">\r\n                                Мини сад\r\n                            </div>\r\n                            <div class=\"product-item-price\">\r\n                                3000 руб.\r\n                            </div>\r\n                            <div class=\"product-item-cart\">\r\n                                <img src=\"images/store%20hover.png\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"product-item\">\r\n                            <div class=\"product-item-image\">\r\n                                <img src=\"images/product4.png\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"product-item-title\">\r\n                                Морской мир\r\n                            </div>\r\n                            <div class=\"product-item-price\">\r\n                                2000 руб.\r\n                            </div>\r\n                            <div class=\"product-item-cart\">\r\n                                <img src=\"images/store%20hover.png\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"product-item\">\r\n                            <div class=\"product-item-image\">\r\n                                <img src=\"images/product5.png\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"product-item-title\">\r\n                                Марс\r\n                            </div>\r\n                            <div class=\"product-item-price\">\r\n                                4500 руб.\r\n                            </div>\r\n                            <div class=\"product-item-cart\">\r\n                                <img src=\"images/store%20hover.png\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div id=\"orkhidarium\" class=\"products-container\">\r\n                <div class=\"product-container wow animate__fadeIn\">\r\n                    <div class=\"main-product-item\">\r\n                        <div class=\"main-product-item-image\">\r\n                            <img src=\"images/product-main-2.png\" alt=\"\">\r\n                        </div>\r\n                        <div class=\"main-product-item-title\">\r\n                            Ночная сказка\r\n                        </div>\r\n                        <div class=\"main-product-item-text\">\r\n                            Орхидариум с яркими суккулентами в вазе ручной работы\r\n                        </div>\r\n                        <div class=\"main-product-item-price\">\r\n                            5500 руб.\r\n                        </div>\r\n                        <div class=\"product-item-cart\">\r\n                            <img src=\"images/store%20hover.png\" alt=\"\">\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"product-items\">\r\n                        <div class=\"product-item\">\r\n                            <div class=\"product-item-image\">\r\n                                <img src=\"images/product4.png\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"product-item-title\">\r\n                                Орхидеи\r\n                            </div>\r\n                            <div class=\"product-item-price\">\r\n                                2500 руб.\r\n                            </div>\r\n                            <div class=\"product-item-cart\">\r\n                                <img src=\"images/store%20hover.png\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"product-item\">\r\n                            <div class=\"product-item-image\">\r\n                                <img src=\"images/product3.png\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"product-item-title\">\r\n                                Орхидеи\r\n                            </div>\r\n                            <div class=\"product-item-price\">\r\n                                3000 руб.\r\n                            </div>\r\n                            <div class=\"product-item-cart\">\r\n                                <img src=\"images/store%20hover.png\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"product-item\">\r\n                            <div class=\"product-item-image\">\r\n                                <img src=\"images/product5.png\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"product-item-title\">\r\n                                Орхидеи\r\n                            </div>\r\n                            <div class=\"product-item-price\">\r\n                                2000 руб.\r\n                            </div>\r\n                            <div class=\"product-item-cart\">\r\n                                <img src=\"images/store%20hover.png\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"product-item\">\r\n                            <div class=\"product-item-image\">\r\n                                <img src=\"images/product2.png\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"product-item-title\">\r\n                                Орхидеи\r\n                            </div>\r\n                            <div class=\"product-item-price\">\r\n                                4500 руб.\r\n                            </div>\r\n                            <div class=\"product-item-cart\">\r\n                                <img src=\"images/store%20hover.png\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div id=\"product-action\">\r\n                <button class=\"btn-green open-popup\">Оформить заказ</button>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n\r\n</div>\r\n\r\n<div id=\"promo\">\r\n    <div id=\"promo-container\">\r\n        <div id=\"promo-image\">\r\n            <img src=\"images/promo-image-1.png\" alt=\"\" id=\"first-image\">\r\n            <img src=\"images/promo-image-2.png\" alt=\"\" id=\"second-image\" class=\"wow animate__zoomIn\">\r\n        </div>\r\n        <div id=\"promo-description\">\r\n            <h2 class=\"block-title\">\r\n                Подарок к каждому заказу\r\n            </h2>\r\n            <div id=\"promo-text\">\r\n                <div class=\"promo-text-words\">\r\n                    К каждому букету прилагается бесплатная <span>открытка или сладкий презент.</span>\r\n                </div>\r\n                <div class=\"promo-text-words\">\r\n                    Закажите любой флорариум в период <span>с 20 апреля до 20 сентября</span> в наших магазинах и\r\n                    выберите в подарок\r\n                    открытку и большую коробку конфет Rafaello или Roshen.\r\n                </div>\r\n                <div class=\"promo-text-words\">\r\n                    Это абсолютно бесплатно, потому что мы любим своих клиентов и хотим дарить вам радость так же, как\r\n                    вы делаете это для своих любимых!\r\n                </div>\r\n            </div>\r\n            <div id=\"promo-action\">\r\n                <a href=\"#product\">\r\n                    <button class=\"btn-green\">Посмотреть флорариумы</button>\r\n                </a>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n    <div id=\"promo-image-left\">\r\n        <img src=\"images/promo-left-img.png\" alt=\"\">\r\n    </div>\r\n    <div id=\"promo-image-right\">\r\n        <img src=\"images/promo-right-img.png\" alt=\"\">\r\n    </div>\r\n</div>\r\n\r\n<div id=\"additional-info\">\r\n    <div id=\"image-left\">\r\n        <img src=\"images/adinf-left.png\" alt=\"\">\r\n    </div>\r\n    <div id=\"image-right\">\r\n        <img src=\"images/adinf-right.png\" alt=\"\">\r\n    </div>\r\n    <div id=\"additional-info-container\">\r\n        <div id=\"features\">\r\n            <h2 class=\"block-title\">Как мы работаем</h2>\r\n            <div id=\"features-container\">\r\n                <div id=\"features-left\">\r\n                    <div class=\"feature wow animate__fadeInLeft\" style=\"background-color: rgb(247, 247, 247);\">\r\n                        <div class=\"feature-image\">\r\n                            <img src=\"images/feat-1.png\" alt=\"\">\r\n                        </div>\r\n                        <div class=\"feature-text\">\r\n                            <div class=\"feature-title\">\r\n                                01. Сделайте заказ\r\n                            </div>\r\n                            <div class=\"feature-words\">\r\n                                Выберите букет и заполните форму заказа на сайте или позвоните нам. Укажите способ\r\n                                доставки.\r\n                                После оформления заказа наш менеджер свяжется с вами в теченеи 10 минут для уточнения\r\n                                деталей заказа.\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"feature wow animate__fadeInBottomLeft\" style=\"background-image: url('images/bg-2.png')\">\r\n                        <div class=\"feature-image\">\r\n                            <img src=\"images/feat-2.png\" alt=\"\">\r\n                        </div>\r\n                        <div class=\"feature-text\">\r\n                            <div class=\"feature-title\">\r\n                                02. Оплатите\r\n                            </div>\r\n                            <div class=\"feature-words\">\r\n                                Вы можете оплатить букет прямо на сайте онлайн или наличными нашему курьеру.\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div id=\"features-right\">\r\n                    <div class=\"feature wow animate__fadeInRight\" style=\"background-image: url('images/bg-3.png')\">\r\n                        <div class=\"feature-image\">\r\n                            <img src=\"images/feat-3.png\" alt=\"\">\r\n                        </div>\r\n                        <div class=\"feature-text\">\r\n                            <div class=\"feature-title\">\r\n                                03. Ждите доставку\r\n                            </div>\r\n                            <div class=\"feature-words\">\r\n                                В назначенный день и время мы доставим ваш букет абсолютно бесплатно. Он будет бережно\r\n                                упакован и вручен вам вместе с подарками, идущими в комплекте с букетом.\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"feature wow animate__fadeInBottomRight\"\r\n                         style=\"background-image: url('images/bg-4.png')\">\r\n                        <div class=\"feature-image\">\r\n                            <img src=\"images/feat-4.png\" alt=\"\">\r\n                        </div>\r\n                        <div class=\"feature-text\">\r\n                            <div class=\"feature-title\">\r\n                                04. Фотоотчет\r\n                            </div>\r\n                            <div class=\"feature-words\">\r\n                                Сделайте фотографию с нашим букетом, отметьте наш аккаунт в инстаграм @flowerfantasy и\r\n                                получите скидку 10% на следующий заказ в течение месяца.\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n        </div>\r\n        <div id=\"photo\">\r\n            <h2 class=\"block-title\">\r\n                Фотогалерея\r\n            </h2>\r\n            <div id=\"photo-container\">\r\n                <div id=\"photo-box\">\r\n                    <a href=\"images/photo1.png\" class=\"open-image wow animate__fadeIn\"><img src=\"images/photo1.png\"\r\n                                                                                            alt=\"\"></a>\r\n                    <a href=\"images/photo2.png\" class=\"open-image wow animate__fadeIn\"><img src=\"images/photo2.png\"\r\n                                                                                            alt=\"\"></a>\r\n                    <a href=\"images/photo4.png\" class=\"open-image wow animate__fadeIn\"><img src=\"images/photo4.png\"\r\n                                                                                            alt=\"\"></a>\r\n                    <a href=\"images/photo5.png\" class=\"open-image wow animate__fadeIn\"><img src=\"images/photo5.png\"\r\n                                                                                            alt=\"\"></a>\r\n                </div>\r\n                <a href=\"images/photo6.png\" class=\"open-image wow animate__fadeIn\"><img src=\"images/photo6.png\" alt=\"\"\r\n                                                                                        id=\"photo-main\"></a>\r\n            </div>\r\n\r\n        </div>\r\n        <div id=\"reviews\" class=\"wow wow animate__fadeIn\">\r\n            <h2 class=\"block-title\">\r\n                Отзывы наших клиентов\r\n            </h2>\r\n            <div id=\"reviews-box\">\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/rev-2.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Никита\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Очень понравились цветы! Спасибо!\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/rev-3.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Татьяна\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Безумно красиво! Композиция отлично вписалась в интерьер.\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/rev-1.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Николай\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Необычный подарок. Бабушке очень понравился. Интересно и красиво. Спасибо!\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/rev-1.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Мурад\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Спасибо большое за вашу работу. Флорариум замечательный! Моя девушка была в восторге. Доставка\r\n                        была вовремя и курьер был очень вежливый. Буду советовать друзьям!\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/rev-2.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Кирилл\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Я покупал флорариум для с в подарок своей подруге. Хочу выразить свою благодарность за\r\n                        дополнительный подарок к покупке.\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/rev-3.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Юля\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Молодцы! Хорошо что есть такой сервис!!! Я покупаю уже несколько раз флорариумы. Всегда отличные\r\n                        композиции и быстрая доставка.\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n                <div class=\"review\">\r\n                    <div class=\"review-image\" style=\"background-image: url('images/avatar.png')\">\r\n                    </div>\r\n                    <div class=\"review-name\">\r\n                        Имя\r\n                    </div>\r\n                    <div class=\"review-text\">\r\n                        Текст отзыва\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n        </div>\r\n        <div id=\"information\">\r\n            <div class=\"information-box wow animate__slideInLeft\">\r\n                <div class=\"information-box-title\">\r\n                    Доставка\r\n                </div>\r\n                <div class=\"information-item\">\r\n                    <div class=\"information-item-image\">\r\n                        <img src=\"images/delivery1.png\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"information-item-text\">\r\n                        <div class=\"information-item-title\">\r\n                            Самовывоз\r\n                        </div>\r\n                        <div class=\"information-item-words\">\r\n                            Бесплатно по адресу: Краснодар, проспект Некрасова, д. 24. Вход со двора.\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"information-item\">\r\n                    <div class=\"information-item-image\">\r\n                        <img src=\"images/delivery2.png\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"information-item-text\">\r\n                        <div class=\"information-item-title\">\r\n                            Доставка нашим курьером\r\n                        </div>\r\n                        <div class=\"information-item-words\">\r\n                            Бесплатно по указанному вами адресу. Время доставки согласовывается с менеджером по\r\n                            телефону.\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"information-box wow animate__slideInRight\">\r\n                <div class=\"information-box-title\">\r\n                    Оплата\r\n                </div>\r\n                <div class=\"information-item\">\r\n                    <div class=\"information-item-image\">\r\n                        <img src=\"images/payment1.png\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"information-item-text\">\r\n                        <div class=\"information-item-title\">\r\n                            Оплата картой на сайте\r\n                        </div>\r\n                        <div class=\"information-item-words\">\r\n                            Мы используем безопасные методы оплаты, и вы можете оплатить заказ прямо на сайте.\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"information-item\">\r\n                    <div class=\"information-item-image\">\r\n                        <img src=\"images/payment2.png\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"information-item-text\">\r\n                        <div class=\"information-item-title\">\r\n                            Наличными курьеру\r\n                        </div>\r\n                        <div class=\"information-item-words\">\r\n                            Вы можете произвести оплату наличными на руки нашему курьеру и получить чек заказа.\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div id=\"footer\">\r\n    <div id=\"footer-image\">\r\n        <img src=\"images/footer-image.png\" alt=\"\">\r\n    </div>\r\n    <div id=\"footer-container\">\r\n        <div id=\"main-footer\">\r\n            <div class=\"logo wow animate__heartBeat\">\r\n                <a href=\"#\">\r\n                    <img src=\"images/logo.png\" alt=\"\">\r\n                    <span>Florarium</span>\r\n                </a>\r\n            </div>\r\n            <div id=\"social-network\">\r\n                <a href=\"#\">\r\n                    <svg id=\"regular\" enable-background=\"new 0 0 24 24\" height=\"512\" viewBox=\"0 0 24 24\" width=\"512\"\r\n                         xmlns=\"http://www.w3.org/2000/svg\">\r\n                        <path d=\"m12.145 19.5c3.472 0 2.234-2.198 2.502-2.83-.004-.472-.008-.926.008-1.202.22.062.739.325 1.811 1.367 1.655 1.67 2.078 2.665 3.415 2.665h2.461c.78 0 1.186-.323 1.389-.594.196-.262.388-.722.178-1.438-.549-1.724-3.751-4.701-3.95-5.015.03-.058.078-.135.103-.175h-.002c.632-.835 3.044-4.449 3.399-5.895.001-.002.002-.005.002-.008.192-.66.016-1.088-.166-1.33-.274-.362-.71-.545-1.299-.545h-2.461c-.824 0-1.449.415-1.765 1.172-.529 1.345-2.015 4.111-3.129 5.09-.034-1.387-.011-2.446.007-3.233.036-1.535.152-3.029-1.441-3.029h-3.868c-.998 0-1.953 1.09-.919 2.384.904 1.134.325 1.766.52 4.912-.76-.815-2.112-3.016-3.068-5.829-.268-.761-.674-1.466-1.817-1.466h-2.461c-.998 0-1.594.544-1.594 1.455 0 2.046 4.529 13.544 12.145 13.544zm-8.09-13.499c.217 0 .239 0 .4.457.979 2.883 3.175 7.149 4.779 7.149 1.205 0 1.205-1.235 1.205-1.7l-.001-3.702c-.066-1.225-.512-1.835-.805-2.205l3.508.004c.002.017-.02 4.095.01 5.083 0 1.403 1.114 2.207 2.853.447 1.835-2.071 3.104-5.167 3.155-5.293.075-.18.14-.241.376-.241h2.461.01c-.001.003-.001.006-.002.009-.225 1.05-2.446 4.396-3.189 5.435-.012.016-.023.033-.034.05-.327.534-.593 1.124.045 1.954h.001c.058.07.209.234.429.462.684.706 3.03 3.12 3.238 4.08-.138.022-.288.006-2.613.011-.495 0-.882-.74-2.359-2.23-1.328-1.292-2.19-1.82-2.975-1.82-1.524 0-1.413 1.237-1.399 2.733.005 1.622-.005 1.109.006 1.211-.089.035-.344.105-1.009.105-6.345 0-10.477-10.071-10.636-11.996.055-.005.812-.002 2.546-.003z\"/>\r\n                    </svg>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <svg version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\"\r\n                         xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n                         viewBox=\"0 0 48.605 48.605\" style=\"enable-background:new 0 0 48.605 48.605;\"\r\n                         xml:space=\"preserve\">\r\n                    <g>\r\n\t<path d=\"M34.094,8.688h4.756V0.005h-8.643c-0.721-0.03-9.51-0.198-11.788,8.489c-0.033,0.091-0.761,2.157-0.761,6.983l-7.903,0.024\r\n\t\tv9.107l7.913-0.023v24.021h12.087v-24h8v-9.131h-8v-2.873C29.755,10.816,30.508,8.688,34.094,8.688z M35.755,17.474v5.131h-8v24\r\n\t\th-8.087V22.579l-7.913,0.023v-5.107l7.934-0.023l-0.021-1.017c-0.104-5.112,0.625-7.262,0.658-7.365\r\n\t\tc1.966-7.482,9.473-7.106,9.795-7.086l6.729,0.002v4.683h-2.756c-4.673,0-6.338,3.054-6.338,5.912v4.873L35.755,17.474\r\n\t\tL35.755,17.474z\"/>\r\n</g>\r\n\r\n                </svg>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <svg viewBox=\"0 0 512.00096 512.00096\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                        <path d=\"m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0\"/>\r\n                        <path d=\"m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0\"/>\r\n                        <path d=\"m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0\"/>\r\n                    </svg>\r\n                </a>\r\n            </div>\r\n            <div id=\"call\">\r\n                <div id=\"number\">\r\n                    +912 19 999 99 99\r\n                    +912 72 733 93 93\r\n                </div>\r\n                <div id=\"footer-action\">\r\n                    <button class=\"btn-white callback-action\">Заказать звонок</button>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n        <div id=\"additional-footer\">\r\n            <div id=\"rights\">\r\n                ©2020. Все права защищены\r\n            </div>\r\n            <div id=\"privacy\">\r\n                <a href=\"#\">Политика конфиденциальности</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div id=\"popup-container\">\r\n    <div id=\"popup\">\r\n        <div id=\"popup-content\" class=\"wow animate__fadeIn\">\r\n            <div id=\"popup-main\">\r\n                <div id=\"popup-title\">\r\n                    Оформление заказа\r\n                </div>\r\n                <div id=\"popup-text\">\r\n                    Запомните данные для оформления заказа\r\n                </div>\r\n                <div id=\"popup-form-title\">\r\n                    1. Личные данные\r\n                </div>\r\n                <form action=\"\">\r\n                    <div class=\"popup-input\">\r\n                        <input type=\"text\" placeholder=\"Ваше имя\" id=\"name\" class=\"order-input\">\r\n                        <div class=\"error-input\">Введите ваше имя</div>\r\n                    </div>\r\n                    <div class=\"popup-input\">\r\n                        <input type=\"text\" placeholder=\"Ваш телефон\" id=\"phone\" class=\"order-input\" required>\r\n                        <div class=\"error-input\">Укажите ваш телефон</div>\r\n                    </div>\r\n                    <div class=\"popup-data\">\r\n                        <textarea type=\"text\" placeholder=\"Детали вашего заказа\" id=\"data\"\r\n                                  class=\"order-input\" required></textarea>\r\n                        <div class=\"error-input\">Уточните детали заказа</div>\r\n                    </div>\r\n                </form>\r\n                <div id=\"popup-action\">\r\n                    <button class=\"btn-green\" id=\"order-button\">Заказать</button>\r\n                </div>\r\n            </div>\r\n            <div id=\"popup-image\">\r\n                <img src=\"images/popup-image.png\" alt=\"\">\r\n            </div>\r\n            <div class=\"popup-close\" id=\"popup-cancel\"></div>\r\n        </div>\r\n        <div id=\"popup-sent\" class=\"wow animate__fadeIn\">\r\n            <h2 class=\"block-title\">Спасибо за ваш заказ!</h2>\r\n            <div id=\"popup-sent-text\">\r\n                После оформления заказа мы свяжемся с вами, чтобы подтвердить заказ. На следующий день после оформления\r\n                заказа ваша посылка будет отправлена в место назначения. Когда ваш заказ прибудет в почтовое отделение,\r\n                вам придет sms-оповещение на указанный номер телефона.\r\n            </div>\r\n            <div id=\"popup-sent-action\">\r\n                <button class=\"btn-green\">Продолжить покупки</button>\r\n            </div>\r\n            <div class=\"popup-close\" id=\"popup-sent-cancel\"></div>\r\n        </div>\r\n\r\n    </div>\r\n</div>\r\n\r\n<div id=\"callback-container\">\r\n    <div id=\"callback-content\">\r\n        <div id=\"callback\" class=\"wow animate__fadeIn\">\r\n            <div id=\"callback-cancel\" class=\"popup-close\">\r\n            </div>\r\n            <div id=\"callback-image\">\r\n                <img src=\"images/adinf-left.png\" alt=\"\">\r\n            </div>\r\n            <form action=\"\">\r\n                <div class=\"popup-input\">\r\n                    <input type=\"text\" placeholder=\"Ваш телефон\" id=\"callback-phone\" class=\"order-input\" required>\r\n                    <div class=\"error-input\">Укажите ваш телефон</div>\r\n                </div>\r\n            </form>\r\n            <div id=\"callback-action\">\r\n                <button class=\"btn-green call-me\">Перезвоните мне</button>\r\n            </div>\r\n        </div>\r\n        <div id=\"callback-sent\" class=\"wow animate__fadeIn\">\r\n            <h2 class=\"block-title\">Спасибо! <br> Мы перезвоним вам в течение нескольких минут.</h2>\r\n            <div id=\"callback-sent-image\">\r\n                <img src=\"images/product4.png\" alt=\"\">\r\n            </div>\r\n            <div id=\"callback-sent-cancel\" class=\"popup-close\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div id=\"up\">\r\n    <a href=\"#header\">\r\n        <svg version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n             x=\"0px\" y=\"0px\"\r\n             viewBox=\"0 0 512 512\" style=\"enable-background:new 0 0 512 512;\" xml:space=\"preserve\">\r\n<g>\r\n\t<g>\r\n\t\t<path d=\"M256,0C114.833,0,0,114.833,0,256s114.833,256,256,256s256-114.853,256-256S397.167,0,256,0z M256,472.341\r\n\t\t\tc-119.275,0-216.341-97.046-216.341-216.341S136.725,39.659,256,39.659c119.295,0,216.341,97.046,216.341,216.341\r\n\t\t\tS375.275,472.341,256,472.341z\"/>\r\n\t</g>\r\n</g>\r\n            <g>\r\n\t<g>\r\n\t\t<path d=\"M369.227,283.365l-99.148-99.148c-7.734-7.694-20.226-7.694-27.96,0l-99.148,99.148c-6.365,7.416-6.365,18.382,0,25.798\r\n\t\t\tc7.119,8.309,19.651,9.28,27.96,2.161L256,226.256l85.267,85.069c7.734,7.694,20.226,7.694,27.96,0\r\n\t\t\tC376.921,303.591,376.921,291.098,369.227,283.365z\"/>\r\n\t</g>\r\n</g>\r\n</svg>\r\n    </a>\r\n</div>\r\n\r\n<script src=\"js/wow.min.js\"></script>\r\n<script src=\"js/jquery-3.5.1.min.js\"></script>\r\n<script src=\"js/jquery.magnific-popup.min.js\"></script>\r\n<script src=\"js/slick.min.js\"></script>\r\n<script src=\"js/main.js\"></script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 1000eef1583f78c3305b9e8a7881fe2707f80c41)
++++ b/index.html	(date 1608809329133)
+@@ -54,7 +54,7 @@
+             <div id="main-advantages">
+                 <div class="advantage">
+                     <div class="advantage-image">
+-                        <img src="images/adv-1.png" alt="">
++                        <img src="images/main-icon-1.png" alt="">
+                     </div>
+                     <div class="advantage-text">
+                         Очень неприхотливы
+@@ -63,7 +63,7 @@
+                 </div>
+                 <div class="advantage">
+                     <div class="advantage-image">
+-                        <img src="images/adv-2.png" alt="">
++                        <img src="images/main-icon-2png" alt="">
+                     </div>
+                     <div class="advantage-text">
+                         Поливать раз в неделю
+@@ -71,7 +71,7 @@
+                 </div>
+                 <div class="advantage">
+                     <div class="advantage-image">
+-                        <img src="images/adv-3.png" alt="">
++                        <img src="images/main-icon-3.png" alt="">
+                     </div>
+                     <div class="advantage-text">
+                         Доставим бесплатно
+@@ -100,27 +100,28 @@
+             <h2 class="block-title">
+                 О нас
+             </h2>
+-            <div class="description-block wow animate__fadeInDown">
+-                <div class="description-block-image">
+-                    <img src="images/info-1.png" alt="">
+-                </div>
+-                <div class="description-block-text">
+-                    Мы влюбленны в цветы и в свою работу. На протяжении 8 лет мы создаем красоту из живых цветов,
+-                    составляем композиции из эхеверии и крассулы эксперементируем с формами, цветами и сочетаниями.
+-                </div>
+-            </div>
+-            <div class="description-block wow animate__fadeInUp" id="second-description-block">
+-                <div class="description-block-image">
+-                    <img src="images/info-2.png" alt="">
+-                </div>
+-                <div class="description-block-text">
+-                    Мы дарим каждому клиенту настоящую радость и
+-                    любовь - это миссия нашего магазина. Вдохновляясь современными тенденциями во флористике, мы
+-                    придумываем что-то новое, стремимся показать самые необычные и интересные сочетания цветов. К
+-                    созданию флорариумов подходим с душой и любовью.
++            <div id="info-description-content">
++                <div class="description-block wow animate__fadeInDown">
++                    <div class="description-block-image">
++                        <img src="images/info-1.png" alt="">
++                    </div>
++                    <div class="description-block-text">
++                        Мы влюблены в цветы и в свою работу. На протяжении 8 лет мы создаем красоту из живых цветов,
++                        составляем композиции из эхеверии и крассулы эксперементируем с формами, цветами и сочетаниями.
++                    </div>
++                </div>
++                <div class="description-block wow animate__fadeInUp" id="second-description-block">
++                    <div class="description-block-image">
++                        <img src="images/info-2.png" alt="">
++                    </div>
++                    <div class="description-block-text">
++                        Мы дарим каждому клиенту настоящую радость и
++                        любовь - это миссия нашего магазина. Вдохновляясь современными тенденциями во флористике, мы
++                        придумываем что-то новое, стремимся показать самые необычные и интересные сочетания цветов. К
++                        созданию флорариумов подходим с душой и любовью.
++                    </div>
+                 </div>
+             </div>
+-
+         </div>
+         <div id="product">
+             <h2 class="block-title">
+@@ -353,7 +354,7 @@
+             <h2 class="block-title">Как мы работаем</h2>
+             <div id="features-container">
+                 <div id="features-left">
+-                    <div class="feature wow animate__fadeInLeft" style="background-color: rgb(247, 247, 247);">
++                    <div class="feature wow animate__fadeInLeft">
+                         <div class="feature-image">
+                             <img src="images/feat-1.png" alt="">
+                         </div>
+@@ -369,7 +370,7 @@
+                             </div>
+                         </div>
+                     </div>
+-                    <div class="feature wow animate__fadeInBottomLeft" style="background-image: url('images/bg-2.png')">
++                    <div class="feature wow animate__fadeInBottomLeft">
+                         <div class="feature-image">
+                             <img src="images/feat-2.png" alt="">
+                         </div>
+@@ -384,7 +385,7 @@
+                     </div>
+                 </div>
+                 <div id="features-right">
+-                    <div class="feature wow animate__fadeInRight" style="background-image: url('images/bg-3.png')">
++                    <div class="feature wow animate__fadeInRight">
+                         <div class="feature-image">
+                             <img src="images/feat-3.png" alt="">
+                         </div>
+@@ -398,8 +399,7 @@
+                             </div>
+                         </div>
+                     </div>
+-                    <div class="feature wow animate__fadeInBottomRight"
+-                         style="background-image: url('images/bg-4.png')">
++                    <div class="feature wow animate__fadeInBottomRight">
+                         <div class="feature-image">
+                             <img src="images/feat-4.png" alt="">
+                         </div>
+@@ -443,66 +443,6 @@
+             </h2>
+             <div id="reviews-box">
+                 <div class="review">
+-                    <div class="review-image" style="background-image: url('images/rev-2.png')">
+-                    </div>
+-                    <div class="review-name">
+-                        Никита
+-                    </div>
+-                    <div class="review-text">
+-                        Очень понравились цветы! Спасибо!
+-                    </div>
+-                </div>
+-                <div class="review">
+-                    <div class="review-image" style="background-image: url('images/rev-3.png')">
+-                    </div>
+-                    <div class="review-name">
+-                        Татьяна
+-                    </div>
+-                    <div class="review-text">
+-                        Безумно красиво! Композиция отлично вписалась в интерьер.
+-                    </div>
+-                </div>
+-                <div class="review">
+-                    <div class="review-image" style="background-image: url('images/rev-1.png')">
+-                    </div>
+-                    <div class="review-name">
+-                        Николай
+-                    </div>
+-                    <div class="review-text">
+-                        Необычный подарок. Бабушке очень понравился. Интересно и красиво. Спасибо!
+-                    </div>
+-                </div>
+-                <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
+-                    </div>
+-                    <div class="review-name">
+-                        Имя
+-                    </div>
+-                    <div class="review-text">
+-                        Текст отзыва
+-                    </div>
+-                </div>
+-                <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
+-                    </div>
+-                    <div class="review-name">
+-                        Имя
+-                    </div>
+-                    <div class="review-text">
+-                        Текст отзыва
+-                    </div>
+-                </div>
+-                <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
+-                    </div>
+-                    <div class="review-name">
+-                        Имя
+-                    </div>
+-                    <div class="review-text">
+-                        Текст отзыва
+-                    </div>
+-                </div>
+-                <div class="review">
+                     <div class="review-image" style="background-image: url('images/rev-1.png')">
+                     </div>
+                     <div class="review-name">
+@@ -536,63 +476,63 @@
+                     </div>
+                 </div>
+                 <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
++                    <div class="review-image" style="background-image: url('images/rev-4.png')">
+                     </div>
+                     <div class="review-name">
+-                        Имя
++                        Анастасия
+                     </div>
+                     <div class="review-text">
+-                        Текст отзыва
++                        Прекрасный подарок! Я в восторге
+                     </div>
+                 </div>
+                 <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
++                    <div class="review-image" style="background-image: url('images/rev-5.png')">
+                     </div>
+                     <div class="review-name">
+-                        Имя
++                        Екатерина
+                     </div>
+                     <div class="review-text">
+-                        Текст отзыва
++                        Мне очень понравился мой флорариум! Отлично вписался в интерьер офиса. Огромное спасибо)
+                     </div>
+                 </div>
+                 <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
++                    <div class="review-image" style="background-image: url('images/rev-6.png')">
+                     </div>
+                     <div class="review-name">
+-                        Имя
++                        Миша
+                     </div>
+                     <div class="review-text">
+-                        Текст отзыва
++                        Всё супер. Доставили быстро. Удобно оплачивать картой))
+                     </div>
+                 </div>
+                 <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
++                    <div class="review-image" style="background-image: url('images/rev-2.png')">
+                     </div>
+                     <div class="review-name">
+-                        Имя
++                        Никита
+                     </div>
+                     <div class="review-text">
+-                        Текст отзыва
++                        Очень понравились цветы! Спасибо!
+                     </div>
+                 </div>
+                 <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
++                    <div class="review-image" style="background-image: url('images/rev-3.png')">
+                     </div>
+                     <div class="review-name">
+-                        Имя
++                        Татьяна
+                     </div>
+                     <div class="review-text">
+-                        Текст отзыва
++                        Безумно красиво! Композиция отлично вписалась в интерьер.
+                     </div>
+                 </div>
+                 <div class="review">
+-                    <div class="review-image" style="background-image: url('images/avatar.png')">
++                    <div class="review-image" style="background-image: url('images/rev-1.png')">
+                     </div>
+                     <div class="review-name">
+-                        Имя
++                        Николай
+                     </div>
+                     <div class="review-text">
+-                        Текст отзыва
++                        Необычный подарок. Бабушке очень понравился. Интересно и красиво. Спасибо!
+                     </div>
+                 </div>
+             </div>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$/..\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 1000eef1583f78c3305b9e8a7881fe2707f80c41)
++++ b/.idea/vcs.xml	(date 1606205865774)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"36c40858-4d2f-4311-ade3-6595423ecd01\" name=\"Default Changelist\" comment=\"actual\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1kf3lYJ3ecw0LawZwIRMAsgo3uH\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"compactDirectories\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"showMembers\" value=\"true\" />\r\n    <option name=\"sortByType\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ChangesTree.GroupingKeys\" value=\"\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"configurable.group.tools\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"36c40858-4d2f-4311-ade3-6595423ecd01\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1606077970103</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1606077970103</updated>\r\n      <workItem from=\"1606077971190\" duration=\"310000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"actual\">\r\n      <created>1606078099756</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1606078099756</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"actual\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"actual\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1000eef1583f78c3305b9e8a7881fe2707f80c41)
++++ b/.idea/workspace.xml	(date 1609964006979)
+@@ -1,7 +1,22 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="36c40858-4d2f-4311-ade3-6595423ecd01" name="Default Changelist" comment="actual" />
++    <list default="true" id="36c40858-4d2f-4311-ade3-6595423ecd01" name="Default Changelist" comment="actual">
++      <change afterPath="$PROJECT_DIR$/Diploma Project.rar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/images/rev-4.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/images/rev-5.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/images/rev-6.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptive.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/images/adv-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-1.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/images/adv-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-2png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/images/adv-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-icon-3.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/images/info-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info-2.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -11,7 +26,14 @@
+     <execution />
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="hiddenUrls">
++      <set>
++        <option value="https://github.com/annzhulanova/Diploma-Progect" />
++      </set>
++    </option>
+   </component>
+   <component name="ProjectId" id="1kf3lYJ3ecw0LawZwIRMAsgo3uH" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+@@ -27,7 +49,7 @@
+     <property name="ChangesTree.GroupingKeys" value="" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Real Progect" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+@@ -40,7 +62,26 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1606077970103</updated>
+-      <workItem from="1606077971190" duration="310000" />
++      <workItem from="1606077971190" duration="727000" />
++      <workItem from="1606205858877" duration="7000" />
++      <workItem from="1606237655494" duration="27000" />
++      <workItem from="1606237683460" duration="1012000" />
++      <workItem from="1606239472694" duration="1791000" />
++      <workItem from="1606835469410" duration="7000" />
++      <workItem from="1607797147658" duration="76000" />
++      <workItem from="1607797260151" duration="93000" />
++      <workItem from="1607797406471" duration="916000" />
++      <workItem from="1607873446673" duration="2571000" />
++      <workItem from="1607972637600" duration="1015000" />
++      <workItem from="1608539867377" duration="72000" />
++      <workItem from="1608573147023" duration="6139000" />
++      <workItem from="1608658926103" duration="4449000" />
++      <workItem from="1608723658391" duration="2902000" />
++      <workItem from="1608744501140" duration="7119000" />
++      <workItem from="1608751781354" duration="41000" />
++      <workItem from="1608802292437" duration="6189000" />
++      <workItem from="1609956563718" duration="17000" />
++      <workItem from="1609956610388" duration="5988000" />
+     </task>
+     <task id="LOCAL-00001" summary="actual">
+       <created>1606078099756</created>
+Index: css/main.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\r\n    margin: 0;\r\n}\r\n\r\n@font-face {\r\n    font-family: Comfortaa-Bold;\r\n    src: url(\"../fonts/Comfortaa-Bold.ttf\");\r\n}\r\n\r\n@font-face {\r\n    font-family: OpenSans-Regular;\r\n    src: url(\"../fonts/OpenSans-Regular.ttf\");\r\n}\r\n\r\n@font-face {\r\n    font-family: OpenSans-Bold;\r\n    src: url(\"../fonts/OpenSans-Bold.ttf\");\r\n}\r\n\r\n@font-face {\r\n    font-family: PTSerif-Bold;\r\n    src: url(\"../fonts/PTSerif-Bold.ttf\");\r\n}\r\n@font-face {\r\n    font-family: NotoSans-Bold;\r\n    src: url(\"../fonts/NotoSans-Bold.ttf\");\r\n}\r\n@font-face {\r\n    font-family: NotoSans-Regular;\r\n    src: url(\"../fonts/NotoSans.ttf\");\r\n}\r\n\r\n\r\n\r\nh2 {\r\n    margin: 0;\r\n}\r\n\r\n.logo span {\r\n    font-family: 'Comfortaa-Bold', sans-serif;\r\n    font-size: 15px;\r\n    color: rgb(255, 255, 255);\r\n    line-height: 1.2;\r\n    vertical-align: super;\r\n    margin-left: 8px;\r\n}\r\n.logo img {\r\n    width: 30px;\r\n    height: 30px;\r\n    vertical-align: bottom;\r\n}\r\n\r\n\r\n#header {\r\n    background-color: rgb(148, 182, 96);\r\n    width: 100%;\r\n}\r\n#header a {\r\n    text-decoration: none;\r\n}\r\n\r\n#header #header-container {\r\n    margin: 0 auto;\r\n    padding: 20px 0;\r\n    width: 1200px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n#header #header-container #header-items {\r\n    width: 580px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    text-align: center;\r\n}\r\n\r\n#header #header-container #header-items a {\r\n    font-size: 15px;\r\n    color: rgb(255, 255, 255);\r\n    font-family: 'OpenSans-Regular', sans-serif;\r\n}\r\n\r\n.btn-white {\r\n    border-width: 2px;\r\n    border-color: rgb(255, 255, 255);\r\n    border-style: solid;\r\n    border-radius: 20px;\r\n    background: transparent;\r\n    width: 160px;\r\n    height: 38px;\r\n    font-size: 14px;\r\n    font-family: \"OpenSans-Bold\", sans-serif;\r\n    color: rgb(255, 255, 255);\r\n    text-align: center;\r\n    cursor: pointer;\r\n    outline: none;\r\n}\r\n\r\n.btn-white:focus {\r\n    outline: none;\r\n}\r\n\r\n.btn-white:hover {\r\n    background-color: rgb(255, 255, 255);\r\n    color: rgb(148, 182, 96);\r\n}\r\n\r\n#main {\r\n    background: url(\"../images/mainbg.png\");\r\n    background-size: 100%;\r\n}\r\n\r\n#main #main-container {\r\n    width: 1200px;\r\n    margin: 0 auto;\r\n    padding-bottom: 130px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n#main-description {\r\n    max-width: 610px;\r\n    padding-top: 70px;\r\n}\r\n\r\n#main-container #main-description h1 {\r\n    margin: 0 0 50px 0;\r\n    font-size: 55px;\r\n    font-family: 'PTSerif-Bold', sans-serif;\r\n    color: rgb(39, 60, 17);\r\n}\r\n\r\n#main-container #main-description #main-description-text {\r\n    font-size: 20px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    text-align: left;\r\n    line-height: 1.4;\r\n    width: 390px;\r\n    margin-bottom: 50px;\r\n}\r\n\r\n.btn-green {\r\n    background-color: rgb(148, 182, 96);\r\n    width: 255px;\r\n    height: 55px;\r\n    border-radius: 24px;\r\n    border: 0;\r\n    font-size: 14px;\r\n    font-family: 'OpenSans-Bold', sans-serif;\r\n    color: rgb(251, 251, 251);\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn-green:hover {\r\n    background-color: rgb(39, 60, 17);\r\n}\r\n\r\n#main-container #main-description #main-description-action {\r\n    margin-bottom: 90px;\r\n}\r\n\r\n#main-container #main-description #main-advantages {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: flex-start;\r\n}\r\n\r\n#main-container #main-description #main-advantages .advantage {\r\n    max-width: 190px;\r\n    text-align: center;\r\n}\r\n\r\n#main-container #main-description #main-advantages .advantage .advantage-text {\r\n    font-size: 14px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.357;\r\n    margin-top: 20px;\r\n\r\n}\r\n\r\n\r\n#info {\r\n    position: relative;\r\n}\r\n#info #left-image {\r\n    position: absolute;\r\n    top: -130px;\r\n}\r\n\r\n\r\n#info #right-image {\r\n    position: absolute;\r\n    top: 580px;\r\n    right: 0;\r\n}\r\n\r\n#info #info-container {\r\n    width: 1200px;\r\n    margin: 0 auto;\r\n    padding: 120px 0 70px 0;\r\n    position: relative;\r\n}\r\n\r\n.block-title {\r\n    font-size: 40px;\r\n    font-family: 'PTSerif-Bold', sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    text-align: center;\r\n}\r\n\r\n#info-container #product .block-title {\r\n    margin-bottom: 60px;\r\n}\r\n\r\n#info-container #info-description .block-title {\r\n    margin-bottom: 50px;\r\n}\r\n\r\n#info-container #info-description .description-block {\r\n    width: 997px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: flex-start;\r\n\r\n}\r\n\r\n#info-container #info-description .description-block .description-block-text {\r\n    font-size: 18px;\r\n    font-family: 'OpenSans-Regular.ttf', sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    text-align: left;\r\n    line-height: 1.278;\r\n    width: 450px;\r\n}\r\n\r\n#info-container #info-description #second-description-block .description-block-text {\r\n    width: 485px;\r\n}\r\n\r\n#info-container #info-description #second-description-block {\r\n    position: absolute;\r\n    z-index: 50;\r\n    top: 450px;\r\n    left: 220px;\r\n}\r\n\r\n#info #info-container #product {\r\n    margin-top: 330px;\r\n}\r\n\r\n#info #info-container #product #product-category {\r\n    margin: 50px auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#info #info-container #product #product-category .category {\r\n    font-size: 25px;\r\n    font-family: 'OpenSans-Regular', sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    line-height: 2;\r\n    margin: 0 40px;\r\n    border: 1px solid transparent;\r\n    cursor: pointer;\r\n}\r\n\r\n#info #info-container #product #product-category .category.active {\r\n    border-bottom: 1px solid rgb(148, 182, 96);\r\n\r\n}\r\n\r\n#info #info-container #product #product-category .category:hover {\r\n    border-bottom: 1px solid rgb(148, 182, 96);\r\n    cursor: pointer;\r\n}\r\n\r\n#info #info-container #product .product-container {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n#info #info-container #product .product-container .product-items {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-between;\r\n    align-content: space-between;\r\n}\r\n\r\n\r\n#info #info-container #product .product-container .main-product-item {\r\n    border-radius: 5px;\r\n    background-color: rgb(251, 251, 251);\r\n    position: relative;\r\n    padding: 30px 50px 50px 30px;\r\n    box-sizing: border-box;\r\n    margin-right: 33px;\r\n}\r\n\r\n\r\n#info #info-container #product .product-container .main-product-item .main-product-item-title {\r\n    font-size: 25px;\r\n    font-family: \"OpenSans-Bold\", sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    line-height: 1;\r\n    margin: 50px 0 25px 0;\r\n}\r\n\r\n#info #info-container #product .product-container .main-product-item .main-product-item-text {\r\n    font-size: 18px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.278;\r\n    text-align: left;\r\n    margin-bottom: 40px;\r\n}\r\n\r\n#info #info-container #product .product-container .main-product-item .main-product-item-price {\r\n    font-size: 25px;\r\n    font-family: \"OpenSans-Bold\", sans-serif;\r\n    color: rgb(148, 182, 96);\r\n    line-height: 1.3;\r\n\r\n}\r\n\r\n#info #info-container #product .product-container .product-item {\r\n    width: 330px;\r\n    height: 320px;\r\n    border-radius: 5px;\r\n    background-color: rgb(251, 251, 251);\r\n    padding: 0 30px 30px 30px;\r\n    box-sizing: border-box;\r\n    position: relative;\r\n}\r\n\r\n#info #info-container #product .product-container .product-item:hover {\r\n    cursor: pointer;\r\n    transform: scale(1.1);\r\n    transition: 1s;\r\n}\r\n\r\n#info #info-container #product .product-container  .main-product-item:hover {\r\n    cursor: pointer;\r\n    transform: scale(1.1);\r\n    transition: 1s;\r\n}\r\n\r\n#info #info-container #product .product-container .product-item .product-item-title {\r\n    font-size: 20px;\r\n    font-family: \"OpenSans-Bold\", sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    line-height: 1.25;\r\n    margin-top: 28px;\r\n\r\n}\r\n\r\n#info #info-container #product .product-container .product-item .product-item-price {\r\n    font-size: 18px;\r\n    font-family: \"OpenSans-Bold\", sans-serif;\r\n    color: rgb(148, 182, 96);\r\n    line-height: 1.111;\r\n    margin-top: 20px;\r\n}\r\n\r\n#info #info-container #product .product-container .product-item-cart {\r\n    display: none;\r\n    position: absolute;\r\n    right: 30px;\r\n    bottom: 30px;\r\n}\r\n\r\n#info #info-container #product .product-container .product-item .product-item-image {\r\n    width: 180px;\r\n    height: 188px;\r\n    margin: 0 auto;\r\n}\r\n#orkhidarium {\r\n    display: none;\r\n}\r\n\r\n#info #info-container #product #product-action {\r\n    margin-top: 50px;\r\n    text-align: center;\r\n}\r\n\r\n\r\n#promo {\r\n    background: url(\"../images/promobg.png\");\r\n    background-size: 100%;\r\n    position: relative;\r\n}\r\n\r\n#promo #promo-image-left {\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    z-index: 0;\r\n}\r\n\r\n#promo #promo-image-right {\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    z-index: 0;\r\n}\r\n\r\n#promo #promo-container {\r\n    margin: 0 auto;\r\n    padding: 100px 0 100px 0;\r\n    width: 1200px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    z-index: 50;\r\n}\r\n\r\n#promo #promo-container #promo-description .block-title{\r\n    text-align: left;\r\n    margin-bottom: 50px;\r\n}\r\n\r\n#promo #promo-container #promo-description #promo-text {\r\n    width: 700px;\r\n    font-size: 18px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.278;\r\n}\r\n#promo #promo-container #promo-description {\r\n    z-index: 50;\r\n}\r\n\r\n#promo #promo-container #promo-description #promo-text span {\r\n    font-family: 'OpenSans-Bold', sans-serif;\r\n}\r\n\r\n#promo #promo-container #promo-description #promo-text .promo-text-words {\r\n    margin-bottom: 30px;\r\n}\r\n\r\n#promo #promo-container #promo-image {\r\n    position: relative;\r\n    z-index: 50;\r\n}\r\n\r\n#second-image {\r\n    position: absolute;\r\n    bottom: -60px;\r\n    left: 150px;\r\n}\r\n\r\n#additional-info-container {\r\n    width: 1200px;\r\n    padding: 120px 0;\r\n    margin: 0 auto;\r\n}\r\n\r\n#additional-info-container #features .block-title {\r\n    margin-bottom: 70px;\r\n}\r\n\r\n#additional-info-container #features #features-container {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n#features #features-container #features-left {\r\n    margin-right: 135px;\r\n    position: relative;\r\n}\r\n#features #features-container #features-right {\r\n    position: relative;\r\n}\r\n\r\n#additional-info-container #features #features-container .feature {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    width: 400px;\r\n    height: 275px;\r\n    padding: 50px 25px;\r\n    border-radius: 5px;\r\n    box-sizing: border-box;\r\n}\r\n #features #features-container .feature:nth-child(2n) {\r\n    position: absolute;\r\n    left: 260px;\r\n    top: 230px;\r\n}\r\n\r\n#features #features-container .feature .feature-text {\r\n    width: 245px;\r\n    margin-left: 20px;\r\n}\r\n\r\n#features #features-container .feature .feature-text .feature-title {\r\n    font-size: 20px;\r\n    font-family: \"OpenSans-Bold\", sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    line-height: 1.15;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n#features #features-container .feature .feature-text .feature-words {\r\n    font-size: 14px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.357;\r\n}\r\n\r\n#photo {\r\n    margin: 370px auto 110px auto;\r\n}\r\n\r\n#photo #photo-container {\r\n    margin-top: 65px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n#photo #photo-container img:hover {\r\n    transform: scale(1.1);\r\n    transition: 1s;\r\n    overflow: hidden;\r\n}\r\n\r\n#photo #photo-container #photo-box {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-between;\r\n    align-content: space-between;\r\n    margin-right: 35px;\r\n}\r\n\r\n#reviews #reviews-box {\r\n    margin: 70px auto 115px auto;\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n#reviews #reviews-box .review {\r\n    width: 340px;\r\n    text-align: center;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n\r\n.slick-slide {\r\n    margin: 0 20px;\r\n}\r\n\r\n#reviews .slick-next:before {\r\n    content: url(\"../images/next.png\");\r\n}\r\n\r\n#reviews .slick-prev:before {\r\n    content: url(\"../images/prev.png\");\r\n}\r\n\r\n\r\n#reviews .slick-next {\r\n    right: -10px;\r\n}\r\n\r\n#reviews .slick-prev {\r\n    left: -10px;\r\n}\r\n\r\n#reviews .slick-dots li {\r\n    border-width: 1px;\r\n    border-color: rgb(39, 60, 17);\r\n    border-style: solid;\r\n    border-radius: 50%;\r\n    width: 13px;\r\n    height: 13px;\r\n    background-color: transparent;\r\n}\r\n\r\n#reviews .slick-dots li button:before {\r\n    display: none;\r\n}\r\n\r\n#reviews li.slick-active {\r\n    background-color: rgb(39, 60, 17);\r\n}\r\n\r\n#reviews .slick-dots {\r\n    bottom: -60px;\r\n}\r\n\r\n\r\n#reviews #reviews-box .review .review-image {\r\n    border-radius: 50%;\r\n    width: 125px;\r\n    height: 125px;\r\n    overflow: hidden;\r\n    background-size: cover;\r\n    background-position: center;\r\n    margin: 0 auto;\r\n}\r\n\r\n#reviews #reviews-box .review .review-name {\r\n    margin: 30px auto 20px auto;\r\n    font-size: 20px;\r\n    font-family: \"OpenSans-Bold\", sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    line-height: 1.15;\r\n}\r\n\r\n#reviews #reviews-box .review .review-text {\r\n    font-size: 18px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.278;\r\n}\r\n\r\n#additional-info {\r\n    position: relative;\r\n}\r\n\r\n#additional-info #image-left {\r\n    position: absolute;\r\n    top: 470px;\r\n    left: 0;\r\n}\r\n\r\n#additional-info #image-right {\r\n    position: absolute;\r\n    right: 0;\r\n    bottom: 700px;\r\n}\r\n\r\n\r\n#additional-info #additional-info-container #information {\r\n    margin: 180px auto 120px auto;\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n#additional-info-container #information .information-box {\r\n    width: 591px;\r\n    border-radius: 5px;\r\n    background-color: rgb(247, 247, 247);\r\n    padding: 50px 50px 50px 30px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n#additional-info-container #information .information-box .information-box-title {\r\n    font-size: 35px;\r\n    font-family: \"PTSerif-Bold\", sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    line-height: 1.143;\r\n    text-align: center;\r\n}\r\n\r\n#information .information-box .information-item {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    margin-top: 50px;\r\n}\r\n\r\n#information .information-box .information-item .information-item-text {\r\n    margin-left: 20px;\r\n}\r\n\r\n#information .information-box .information-item .information-item-text .information-item-title {\r\n    font-size: 20px;\r\n    font-family: \"OpenSans-Bold\", sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    margin-bottom: 20px;\r\n}\r\n\r\n#information .information-box .information-item .information-item-text .information-item-words {\r\n    font-size: 18px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.278;\r\n}\r\n\r\n#footer {\r\n    padding: 50px 0 20px 0;\r\n    background-color: rgb(148, 182, 96);\r\n    position: relative;\r\n}\r\n\r\n#footer #footer-container {\r\n    margin: 0 auto;\r\n    width: 1200px;\r\n}\r\n\r\n#footer #footer-container #main-footer {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n#footer #footer-container a {\r\n    text-decoration: none;\r\n}\r\n\r\n#footer #footer-container #main-footer #social-network svg {\r\n    fill: #ffffff;\r\n    width: 40px;\r\n    height: 30px;\r\n}\r\n\r\n#footer #footer-container #main-footer #social-network svg:hover {\r\n    opacity: 90%;\r\n    fill: #273c11;\r\n}\r\n\r\n#footer #footer-container #main-footer #call {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n#footer #footer-container #main-footer #call #number {\r\n    width: 120px;\r\n    margin-right: 20px;\r\n    font-size: 14px;\r\n    font-family: \"NotoSans-Bold\", sans-serif;\r\n    color: rgb(255, 255, 255);\r\n\r\n}\r\n\r\n#footer #footer-container #additional-footer {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    margin-top: 75px;\r\n}\r\n\r\n#footer #footer-container #additional-footer #rights {\r\n    font-size: 13px;\r\n    font-family: \"NotoSans-Regular\", sans-serif;\r\n    color: rgb(255, 255, 255);\r\n    line-height: 1.385;\r\n}\r\n\r\n\r\n#footer #footer-container #additional-footer #privacy a {\r\n    font-size: 13px;\r\n    font-family: \"NotoSans-Regular\", sans-serif;\r\n    color: rgb(255, 255, 255);\r\n    line-height: 1.385;\r\n    border-bottom: 1px solid rgb(255, 255, 255);\r\n}\r\n\r\n#footer #footer-image {\r\n    position: absolute;\r\n    left: 0;\r\n    bottom: 0;\r\n}\r\n\r\n\r\n#popup-container,#callback-container {\r\n    display: none;\r\n    position: fixed;\r\n    width: 100%;\r\n    height: 100%;\r\n    left: 0;\r\n    top: 0;\r\n    background-color: rgba(23, 23, 23, 0.7);\r\n    z-index: 9999;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#popup-content {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    border-radius: 20px;\r\n    background-color: rgb(255, 255, 255);\r\n    box-shadow: 0 9px 54px 3px rgba(110, 87, 68, 0.15);\r\n    width: 760px;\r\n    padding: 50px 40px 80px 30px;\r\n    box-sizing: border-box;\r\n    position: relative;\r\n}\r\n\r\n\r\n#popup-content #popup-main #popup-title {\r\n    font-size: 30px;\r\n    font-family: \"PTSerif-Bold\", sans-serif;\r\n    color: rgb(39, 60, 17);\r\n    line-height: 1.167;\r\n    text-align: left;\r\n    margin-bottom: 15px;\r\n}\r\n\r\n#popup-content #popup-main #popup-text {\r\n    font-size: 14px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.5;\r\n    text-align: left;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n#popup-content #popup-main #popup-form-title {\r\n    font-size: 15px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.4;\r\n    text-align: left;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n#popup-content #popup-main .popup-input {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.popup-input input {\r\n    border-radius: 20px;\r\n    border-width: 1px;\r\n    border-color: rgb(39, 60, 17);\r\n    border-style: solid;\r\n    background-color: rgb(255, 254, 254);\r\n    width: 330px;\r\n    height: 40px;\r\n    font-size: 15px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.4;\r\n    text-align: left;\r\n    outline: 0;\r\n    padding: 15px 20px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.error-input {\r\n    font-size: 10px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: #e94f4f;\r\n    margin-left: 20px;\r\n    margin-top: 5px;\r\n    display: none;\r\n}\r\n\r\n#popup-content #popup-main .popup-data textarea {\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    border-width: 1px;\r\n    border-color: rgb(39, 60, 17);\r\n    border-style: solid;\r\n    border-radius: 21px;\r\n    background-color: rgb(255, 254, 254);\r\n    width: 330px;\r\n    height: 98px;\r\n    outline: none;\r\n    font-size: 15px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.4;\r\n    text-align: left;\r\n    resize: none;\r\n}\r\n\r\n#popup-content #popup-main #popup-action {\r\n    margin-top: 30px;\r\n}\r\n\r\n::-webkit-input-placeholder {\r\n    color: rgb(16, 25, 7);\r\n    font-size: 15px;\r\n    text-align: left;\r\n    line-height: 1.4;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n}\r\n\r\n::-moz-placeholder {\r\n    color: rgb(16, 25, 7);\r\n    font-size: 15px;\r\n    text-align: left;\r\n    line-height: 1.4;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n}\r\n\r\n:-moz-placeholder {\r\n    color: rgb(16, 25, 7);\r\n    font-size: 15px;\r\n    text-align: left;\r\n    line-height: 1.4;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n}\r\n\r\n:-ms-input-placeholder {\r\n    color: rgb(16, 25, 7);\r\n    font-size: 15px;\r\n    text-align: left;\r\n    line-height: 1.4;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n}\r\n\r\n#popup-content .popup-close {\r\n    background-image: url(\"../images/popup-close.png\");\r\n    width: 25px;\r\n    height: 25px;\r\n    position: absolute;\r\n    top: 20px;\r\n    right: 20px;\r\n    cursor: pointer;\r\n}\r\n\r\n#popup-content .popup-close:hover {\r\n    background-image: url(\"../images/close-hover.png\");\r\n    cursor: pointer;\r\n}\r\n\r\n#popup-sent {\r\n    display: none;\r\n    padding: 80px 140px;\r\n    box-sizing: border-box;\r\n    border-radius: 20px;\r\n    box-shadow: 0 9px 54px 3px rgba(110, 87, 68, 0.15);\r\n    width: 758px;\r\n    height: 654px;\r\n    text-align: center;\r\n    background-image: url(\"../images/popup-sent.png\");\r\n    background-size: cover;\r\n    overflow: hidden;\r\n    position: relative;\r\n}\r\n\r\n#popup-sent #popup-sent-text {\r\n    font-size: 18px;\r\n    font-family: \"OpenSans-Regular\", sans-serif;\r\n    color: rgb(16, 25, 7);\r\n    line-height: 1.278;\r\n    text-align: center;\r\n    width: 470px;\r\n    margin: 50px auto 40px auto;\r\n}\r\n\r\n#popup-sent .popup-close {\r\n    background-image: url(\"../images/popup-close.png\");\r\n    border-radius: 50%;\r\n    width: 25px;\r\n    height: 25px;\r\n    position: absolute;\r\n    top: 42px;\r\n    right: 60px;\r\n    cursor: pointer;\r\n}\r\n\r\n#popup-sent .popup-close:hover {\r\n    background-image: url(\"../images/close-hover.png\");\r\n    cursor: pointer;\r\n}\r\n\r\n#popup-sent h2 {\r\n    font-size: 35px;\r\n}\r\n#callback-container {\r\n    display: none;\r\n}\r\n\r\n#callback,#callback-sent {\r\n    margin: 0 auto;\r\n    text-align: center;\r\n    border-radius: 20px;\r\n    background-color: white;\r\n    box-shadow: 0 9px 54px 3px rgba(110, 87, 68, 0.15);\r\n    width: 460px;\r\n    padding: 40px 40px;\r\n    box-sizing: border-box;\r\n    position: relative;\r\n}\r\n\r\n#callback {\r\n    display: block;\r\n}\r\n\r\n#callback .popup-input input {\r\n    width: 250px;\r\n    text-align: center;\r\n}\r\n#callback .popup-input input::placeholder {\r\n    text-align: center;\r\n}\r\n\r\n#callback #callback-action {\r\n    margin-top: 20px;\r\n}\r\n\r\n\r\n#callback .btn-green {\r\n    width: 200px;\r\n}\r\n\r\n#callback-container .popup-close {\r\n    background-image: url(\"../images/popup-close.png\");\r\n    border-radius: 50%;\r\n    width: 25px;\r\n    height: 25px;\r\n    position: absolute;\r\n    top: 10px;\r\n    right: 20px;\r\n    cursor: pointer;\r\n}\r\n#callback-container .popup-close:hover {\r\n    background-image: url(\"../images/close-hover.png\");\r\n    cursor: pointer;\r\n}\r\n\r\n#callback #callback-image {\r\n    position: absolute;\r\n    left: 0;\r\n    bottom: 10px;\r\n    width: 110px;\r\n    height: 130px;\r\n}\r\n#callback #callback-image img {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n#callback-sent{\r\n    display: none;\r\n}\r\n#callback-sent .block-title {\r\n    font-size: 25px;\r\n    margin: 20px auto;\r\n}\r\n\r\n#callback .error-input {\r\n    margin-left: -20px;\r\n    margin-top: 0;\r\n}\r\n\r\n#up {\r\n    border-radius: 50%;\r\n    display: none;\r\n    width: 50px;\r\n    height: 50px;\r\n    position: fixed;\r\n    bottom: 200px;\r\n    right: 50px;\r\n}\r\n\r\n#up svg {\r\n    fill: rgb(148, 182, 96);\r\n}\r\n#up:hover {\r\n    transform: scale(1.1);\r\n    transition: 0.3s;\r\n}\r\n\r\n#burger {\r\n    display: none;\r\n    color: white;\r\n    font-size: 32px;\r\n    line-height: 30px;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/main.css b/css/main.css
+--- a/css/main.css	(revision 1000eef1583f78c3305b9e8a7881fe2707f80c41)
++++ b/css/main.css	(date 1608802568986)
+@@ -88,7 +88,7 @@
+     border-radius: 20px;
+     background: transparent;
+     width: 160px;
+-    height: 38px;
++    height: 40px;
+     font-size: 14px;
+     font-family: "OpenSans-Bold", sans-serif;
+     color: rgb(255, 255, 255);
+@@ -146,7 +146,7 @@
+     background-color: rgb(148, 182, 96);
+     width: 255px;
+     height: 55px;
+-    border-radius: 24px;
++    border-radius: 30px;
+     border: 0;
+     font-size: 14px;
+     font-family: 'OpenSans-Bold', sans-serif;
+@@ -195,15 +195,14 @@
+ 
+ #info #right-image {
+     position: absolute;
+-    top: 580px;
++    top: 600px;
+     right: 0;
+ }
+ 
+ #info #info-container {
+-    width: 1200px;
++    max-width: 1200px;
+     margin: 0 auto;
+     padding: 120px 0 70px 0;
+-    position: relative;
+ }
+ 
+ .block-title {
+@@ -217,6 +216,10 @@
+     margin-bottom: 60px;
+ }
+ 
++#info-container #info-description #info-description-content {
++    position: relative;
++}
++
+ #info-container #info-description .block-title {
+     margin-bottom: 50px;
+ }
+@@ -226,7 +229,13 @@
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
++}
+ 
++#info-container #info-description .description-block .description-block-image {
++    width: 315px;
++    border-top: 10px solid white;
++    border-left: 10px solid white;
++    border-radius: 5px;
+ }
+ 
+ #info-container #info-description .description-block .description-block-text {
+@@ -236,6 +245,7 @@
+     text-align: left;
+     line-height: 1.278;
+     width: 450px;
++    border-top: 10px solid white;
+ }
+ 
+ #info-container #info-description #second-description-block .description-block-text {
+@@ -243,10 +253,11 @@
+ }
+ 
+ #info-container #info-description #second-description-block {
++    width: 927px;
+     position: absolute;
+     z-index: 50;
+-    top: 450px;
+-    left: 220px;
++    top: 200px;
++    left: 235px;
+ }
+ 
+ #info #info-container #product {
+@@ -325,7 +336,6 @@
+     font-family: "OpenSans-Bold", sans-serif;
+     color: rgb(148, 182, 96);
+     line-height: 1.3;
+-
+ }
+ 
+ #info #info-container #product .product-container .product-item {
+@@ -336,6 +346,7 @@
+     padding: 0 30px 30px 30px;
+     box-sizing: border-box;
+     position: relative;
++    transition: 1s;
+ }
+ 
+ #info #info-container #product .product-container .product-item:hover {
+@@ -376,7 +387,6 @@
+ 
+ #info #info-container #product .product-container .product-item .product-item-image {
+     width: 180px;
+-    height: 188px;
+     margin: 0 auto;
+ }
+ #orkhidarium {
+@@ -483,8 +493,10 @@
+     width: 400px;
+     height: 275px;
+     padding: 50px 25px;
++    border: 10px solid white;
+     border-radius: 5px;
+     box-sizing: border-box;
++    background-color: rgb(247, 247, 247);
+ }
+  #features #features-container .feature:nth-child(2n) {
+     position: absolute;
+@@ -522,6 +534,10 @@
+     justify-content: space-between;
+ }
+ 
++#photo #photo-container img {
++    transition: 1s;
++}
++
+ #photo #photo-container img:hover {
+     transform: scale(1.1);
+     transition: 1s;
+@@ -563,14 +579,6 @@
+ }
+ 
+ 
+-#reviews .slick-next {
+-    right: -10px;
+-}
+-
+-#reviews .slick-prev {
+-    left: -10px;
+-}
+-
+ #reviews .slick-dots li {
+     border-width: 1px;
+     border-color: rgb(39, 60, 17);
+@@ -704,6 +712,10 @@
+     text-decoration: none;
+ }
+ 
++#footer #footer-container #main-footer #social-network {
++    margin-left: 180px;
++}
++
+ #footer #footer-container #main-footer #social-network svg {
+     fill: #ffffff;
+     width: 40px;
+@@ -1042,12 +1054,12 @@
+     width: 50px;
+     height: 50px;
+     position: fixed;
+-    bottom: 200px;
+-    right: 50px;
++    bottom: 20px;
++    right: 20px;
+ }
+ 
+ #up svg {
+-    fill: rgb(148, 182, 96);
++    fill: rgb(39, 60, 17);
+ }
+ #up:hover {
+     transform: scale(1.1);

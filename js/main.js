@@ -7,11 +7,6 @@ $(document).ready(() => {
         animateClass: 'animate__animated'
     }).init();
 
-    $('.product-item, .main-product-item').click((e) => {
-        let focusElement = $(e.target);
-        focusElement.children('.product-item-cart').show();
-    });
-
     $('#reviews-box').slick({
         dots: true,
         infinite: true,
@@ -67,35 +62,37 @@ $(document).ready(() => {
         let input = $('.order-input');
         let error = $('.error-input');
 
-        if (!name.val()) {
-            name.siblings('.error-input').show();
-            name.css('border-color', '#e94f4f');
-            hasError = true;
-        }
-        if (!phone.val()) {
-            phone.siblings('.error-input').show();
-            phone.css('border-color', '#e94f4f');
-            hasError = true;
-        }
-        if (!data.val()) {
-            data.siblings('.error-input').show();
-            data.css('border-color', '#e94f4f');
-            hasError = true;
+
+        if (!name.val() || !phone.val() || !data.val()) {
+            if (!name.val()) {
+                name.siblings('.error-input').show();
+                name.css('border-color', '#e94f4f');
+                hasError = true;
+            } else {
+                name.siblings('.error-input').remove();
+                name.css('border-color', 'rgb(39, 60, 17)');
+            }
+            if (!phone.val()) {
+                phone.siblings('.error-input').show();
+                phone.css('border-color', '#e94f4f');
+                hasError = true;
+            } else {
+                phone.siblings('.error-input').remove();
+                phone.css('border-color', 'rgb(39, 60, 17)');
+            }
+            if (!data.val()) {
+                data.siblings('.error-input').show();
+                data.css('border-color', '#e94f4f');
+                hasError = true;
+            } else {
+                data.siblings('.error-input').remove();
+                data.css('border-color', 'rgb(39, 60, 17)');
+            }
+
         } else {
             if (name.val() && phone.val() && data.val()) {
-                $.ajax({
-                    type: 'post',
-                    url: 'mail.php',
-                    data: 'name=' + name.val() + '&phone=' + phone.val() + '&data=' + data.val(),
-                    success: () => {
-                        $('#popup-sent').show();
-                        $('#popup-content').hide();
-                    },
-                    error: () => {
-                        $('#popup-container').hide();
-                        alert('Ошибка отпарвки заказа. Свяжитесь, пожалуйста, по номеру телефона.');
-                    }
-                });
+                $('#popup-sent').show();
+                $('#popup-content').hide();
             }
         }
         ;
@@ -132,32 +129,20 @@ $(document).ready(() => {
             hasError = true;
         } else {
             if (number.val()) {
-                $.ajax({
-                    type: 'post',
-                    url: 'mail.php',
-                    data: 'number=' + number.val(),
-                    success: () => {
-                        $('#callback-sent').show();
-                        $('#callback').hide();
-                    },
-                    error: () => {
-                        $('#callback-container').hide();
-                        alert('Ошибка отпарвки заказа. Свяжитесь, пожалуйста, по номеру телефона.');
-                    }
-                })
+                $('#callback-sent').show();
+                $('#callback').hide();
+
             }
             ;
         }
-
-
-
     });
 
     let up = $('#up');
     $(window).scroll(function() {
         if ($(window).scrollTop() > 500) {
             up.css('display', 'block');
-        } else {
+        }
+        else {
             up.css('display', 'none');
         }
     });
